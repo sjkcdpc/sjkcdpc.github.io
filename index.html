@@ -927,13 +927,14 @@ var _hmt = _hmt || [];
 
       
         
-          
-            <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>GitHub Pages如何绑定自定义域名？</p>
-<h1 id="设置步骤详解"><a href="#设置步骤详解" class="headerlink" title="设置步骤详解"></a>设置步骤详解</h1><h2 id="设置网站域名"><a href="#设置网站域名" class="headerlink" title="设置网站域名"></a>设置网站域名</h2><p>在source目录下新建CNAME文件，在首行添加网站域名，如<a href="www.mdslq.cn">www.mdslq.cn</a>.注意前面没有<a href="https://、http://" target="_blank" rel="noopener">https://、http://</a> 以及www等信息，然后重新重新生成并部署站点<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
-<h2 id="设置域名解析"><a href="#设置域名解析" class="headerlink" title="设置域名解析"></a>设置域名解析</h2><p>1、先添加一个CNAME，主机记录写@，后面记录值写上你的<a href="mds1455975151.github.io">mds1455975151.github.io</a><br>2、再添加一个CNAME，主机记录写www，后面记录值也是<a href="mds1455975151.github.io">mds1455975151.github.io</a><br>这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成<a href="https://mds1455975151.github.io">https://mds1455975151.github.io</a>，然后根据CNAME再变成<a href="http://www.mdslq.com" target="_blank" rel="noopener">http://www.mdslq.com</a>，即中间是经过一次转换的）。<br>注：除了使用CNAME记录也有人使用A记录，后面的记录值是写github page里面的ip地址，但有时候IP地址会更改，导致最后解析不正确，所以还是推荐用CNAME别名记录要好些，不建议用IP。<br>3、等待10分钟左右，域名生效后刷新浏览器，使用自定义域名访问网站即可</p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://help.github.com/articles/about-supported-custom-domains/" target="_blank" rel="noopener">官网相关资料</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="noopener">github怎么绑定自己的域名？</a></p>
-
-          
+          <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>GitHub Pages如何绑定自定义域名？</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/12/12/Hexo绑定自定义域名/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
