@@ -1,0 +1,1179 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="http,https,socks5,代理," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="DongSheng's Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="代理IP按照隐藏代理用户级别划分代理IP分为透明代理IP、匿名代理IP和高匿代理IP。                  透明代理IP，对方知道你使用的代理IP也看得到你的真实IP；                 匿名代理IP，对方知道你使用了代理IP，但是无法直接看到你真实IP地址；当然通过一些手段还是可以看到的;                 高匿代理IP，不改变客户机的请求，在服务器看来">
+<meta name="keywords" content="http,https,socks5,代理">
+<meta property="og:type" content="article">
+<meta property="og:title" content="http&#x2F;https&#x2F;socks5代理">
+<meta property="og:url" content="https://mds1455975151.github.io/2017/12/10/http-https-socks5代理/index.html">
+<meta property="og:site_name" content="DongSheng&#39;s Blog">
+<meta property="og:description" content="代理IP按照隐藏代理用户级别划分代理IP分为透明代理IP、匿名代理IP和高匿代理IP。                  透明代理IP，对方知道你使用的代理IP也看得到你的真实IP；                 匿名代理IP，对方知道你使用了代理IP，但是无法直接看到你真实IP地址；当然通过一些手段还是可以看到的;                 高匿代理IP，不改变客户机的请求，在服务器看来">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-12-10T13:06:56.968Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="http&#x2F;https&#x2F;socks5代理">
+<meta name="twitter:description" content="代理IP按照隐藏代理用户级别划分代理IP分为透明代理IP、匿名代理IP和高匿代理IP。                  透明代理IP，对方知道你使用的代理IP也看得到你的真实IP；                 匿名代理IP，对方知道你使用了代理IP，但是无法直接看到你真实IP地址；当然通过一些手段还是可以看到的;                 高匿代理IP，不改变客户机的请求，在服务器看来">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://mds1455975151.github.io/2017/12/10/http-https-socks5代理/"/>
+
+
+
+
+
+  <title> http/https/socks5代理 | DongSheng's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1271299436&web_id=1271299436" language="JavaScript"></script>
+  </div>
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">DongSheng's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">记录点滴，不断突破</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-works">
+          <a href="/works" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-folder"></i> <br />
+            
+            作品
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-baidusitemap">
+          <a href="/baidusitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            百度站点地图
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8670258387043414",
+    enable_page_level_ads: true
+  });
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c07b7d36eacd98b4b4dd92fc182723f4";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://mds1455975151.github.io/2017/12/10/http-https-socks5代理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="DongSheng">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DongSheng's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                http/https/socks5代理
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-10T19:48:47+08:00">
+                2017-12-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/12/10/http-https-socks5代理/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/12/10/http-https-socks5代理/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="代理IP按照隐藏代理用户级别划分"><a href="#代理IP按照隐藏代理用户级别划分" class="headerlink" title="代理IP按照隐藏代理用户级别划分"></a>代理IP按照隐藏代理用户级别划分</h1><p>代理IP分为透明代理IP、匿名代理IP和高匿代理IP。                </p>
+<ul>
+<li>透明代理IP，对方知道你使用的代理IP也看得到你的真实IP；                </li>
+<li>匿名代理IP，对方知道你使用了代理IP，但是无法直接看到你真实IP地址；当然通过一些手段还是可以看到的;                </li>
+<li>高匿代理IP，不改变客户机的请求，在服务器看来就是有个真正的客户浏览器在访问它，此时客户的真实IP是隐藏的，服务器端更不会认为我们使用了代理。    </li>
+</ul>
+<a id="more"></a>
+<h1 id="如何分辨一个代理IP是否高级匿名代理呢？"><a href="#如何分辨一个代理IP是否高级匿名代理呢？" class="headerlink" title="如何分辨一个代理IP是否高级匿名代理呢？"></a>如何分辨一个代理IP是否高级匿名代理呢？</h1><p>对于老鸟来说，要想识别IP代理的等级并不复杂，只需要通过脚本程序（如ASP PHP JSP等）即可在服务器端识别出来，识别的办法就是抓数据包里的相关字段：REMOTE_ADDR，HTTP_VIA以及HTTP_X_FORWARDED_FOR。</p>
+<ul>
+<li>透明代理<ul>
+<li>REMOTE_ADDR = Proxy IP</li>
+<li>HTTP_VIA = Proxy IP</li>
+<li>HTTP_X_FORWARDED_FOR = Your IP</li>
+</ul>
+</li>
+<li>普通匿名代理<ul>
+<li>REMOTE_ADDR = proxy IP</li>
+<li>HTTP_VIA = proxy IP</li>
+<li>HTTP_X_FORWARDED_FOR = proxy IP</li>
+</ul>
+</li>
+<li>高匿代理<ul>
+<li>REMOTE_ADDR = Proxy IP</li>
+<li>HTTP_VIA = not determined</li>
+<li>HTTP_X_FORWARDED_FOR = not determined<br>当然，对于新手来说，可能有一定的困难，需要借助代理IP工具去分辨。</li>
+</ul>
+</li>
+</ul>
+<h1 id="代理IP应用场景"><a href="#代理IP应用场景" class="headerlink" title="代理IP应用场景"></a>代理IP应用场景</h1><ul>
+<li>当你发现某个网站必须要本地人才能注册访问时，你是否很郁闷；</li>
+<li>当你参加了一个活动，想要投很多票的时候，发现一天只能一票，难道就不能多投几票吗；</li>
+<li>当你想访问一些特殊的网站时，发现没有权限，是否很纠结；</li>
+<li>当你想注册一个网站时，被告知24小时一个IP只能注册一次，是否很纳闷……</li>
+</ul>
+<p>总之，在互联网这个行业待久了，你会发现有很多时候非常的无奈，当老板指责你时，你能说“我能怎么办呢，我也很绝望啊”这句话吗？</p>
+<p>其实，这些问题并不是不能解决，只需要使用代理IP就可以完美的避开这些雷区。<br>当遇到地区限制时，找一个该地区的代理IP，用浏览器设置下，或者放在相应的软件里，就可以了；<br>当要投很多票的时候，完全可以找很多代理IP，投一票切换一个代理IP，第一名还会远吗。<br>有了代理IP，这些问题都不再是问题……<br>总结：</p>
+<ul>
+<li>突破网站限制</li>
+<li>突破地域限制</li>
+<li>隐藏真实身份</li>
+<li>提高下载速度</li>
+</ul>
+<h1 id="什么是代理IP的响应速度和稳定性？"><a href="#什么是代理IP的响应速度和稳定性？" class="headerlink" title="什么是代理IP的响应速度和稳定性？"></a>什么是代理IP的响应速度和稳定性？</h1><p>选择代理IP时经常看到两个参数：稳定时长和响应速度。那么，什么是代理IP的响应速度，什么是代理IP的稳定时长呢？</p>
+<p>代理IP的响应速度是指我们用这个代理去访问百度首页所需要的时间。响应速度根据使用代理的机器所在的地理位置不同而有差异。响应时间越短，速度越快！</p>
+<p>代理IP的稳定时长顾名思义就是代理IP的有效时间有多长，比如动态高质量代理，稳定时长是2分钟，也就是说，2分钟后，代理IP就会失效，不能再用了，需要重新提取；普通代理时长几分钟、几小时、几天，甚至更长，因服务器扫描，IP存活时间不定，可以筛选。</p>
+<h1 id="代理IP按用途可以分为哪几类"><a href="#代理IP按用途可以分为哪几类" class="headerlink" title="代理IP按用途可以分为哪几类"></a>代理IP按用途可以分为哪几类</h1><p>代理IP按用途分类可以分哪几类呢？下面我们一起来看看，有些我们经常用，有些非常少用。</p>
+<ul>
+<li>Http代理：最常用的代理，代理客户机的http访问，主要代理浏览器访问网页，它的端口一般为80、8080、3128等。</li>
+<li>SSL代理也叫HTTPS代理，支持最高128位加密强度的http代理，可以作为访问加密网站的代理。加密网站是指以https//开始的网站。ssl的标准端口为443。</li>
+<li>HTTP CONNECT代理：允许用户建立TCP连接到任何端口的代理服务器，这种代理不仅可用于HTTP，还包括FTP、IRC、RM流服务等。</li>
+<li>FTP代理：代理客户机上的ftp软件访问ftp服务器，其端口一般为21、2121。</li>
+<li>POP3代理：代理客户机上的邮件软件用pop3方式收邮件，其端口一般为110。</li>
+<li>Telnet代理：能够代理通信机的telnet，用于远程控制，入侵时经常使用。其端口一般为23。</li>
+<li>Socks代理：是全能代理，就像有很多跳线的转接板，它只是简单地将一端的系统连接到另外一端。支持多种协议，包括http、ftp请求及其它类型的请求。它分socks 4 和socks 5两种类型，socks 4只支持TCP协议而socks 5支持TCP/UDP协议，还支持各种身份验证机制等协议。其标准端口为1080。</li>
+<li>TUNNEL代理：经HTTPTunnet程序转换的数据包封装成http请求（Request）来穿透防火墙，允许利用HTTP服务器做任何TCP可以做的事情，功能相当于Socks5。</li>
+<li>文献代理：可以用来查询数据库的代理，通过这些代理，可以获得互联网的相关科研学术的数据库资源，例如查询Sciencedirect网站（简称SD）、Academic Press、IEEE，SPRINGER等数据库。</li>
+<li>教育网代理：指学术教育机构局域网通过特定的代理服务器可使无出国权限或无访问某IP段权限的计算机访问相关资源。</li>
+<li>跳板代理：应用于跳板程序，可以看作一种具有动态加密的特殊socks5代理，，也可直接用于PSD软件。其端口一般为1813。</li>
+<li>Ssso代理：代理客户机上的ssso程序访问远程网站，具有SSL加密强度的超级代理，支持socks。</li>
+<li>Flat代理：代理客户机上的flatsurfer程序访问远程网站，具有高强度加密数据流的特殊代理，支持socks，最大可设置三次级联，可以设置穿越代理。其端口一般为6700。</li>
+<li>SoftE代理：代理客户机上的SoftEther程序访问远程网站，应用虚拟集线器HUB和虚拟网卡技术，具备VPN功能及多种认证方式的代理，符合https协议。</li>
+</ul>
+<h1 id="浏览器切换代理软件"><a href="#浏览器切换代理软件" class="headerlink" title="浏览器切换代理软件"></a>浏览器切换代理软件</h1><p>火狐浏览器：AutoProxy<br>Chrome浏览器： SwitchyOmega</p>
+<h1 id="常见反爬虫策略"><a href="#常见反爬虫策略" class="headerlink" title="常见反爬虫策略"></a>常见反爬虫策略</h1><p>抓取稍微正规一点的网站，都会有反爬虫的制约。反爬虫主要有以下几种方式：</p>
+<ul>
+<li>通过UA判断。这是最低级的判断，一般反爬虫不会用这个做唯一判断，因为反反爬虫非常容易，直接随机UA即可解决。</li>
+<li>通过单IP频繁访问判断。这个判断简单，而且反爬虫比较费力，反爬虫绝佳方案。需采用多IP抓取。</li>
+<li>通过Cookie判断，例如通过会员制账号密码登陆，判断单账号短时间抓取次数判断。这个反爬虫也很费力。需采用多账号抓取。</li>
+<li>动态页面加载。这个考验前端工程师的功底，如果前端写的好，各种JS判断，各种逻辑，像百度、淘宝一样，post登录很难。较好的方法，但是对于大牛，还是防不胜防。反爬虫多采用渲染浏览器抓取，效率低下。</li>
+<li>采用验证码。这里要么是登录的时候有验证码，要么是判断是爬虫时，不封IP，而是采用验证码验证，例如链家网。验证码是反爬虫性价比较高的方案。反反爬虫一般接入OCR验证码识别平台或者人工打码平台，亦或者利用Tesseract OCR识别，亦或者采用神经网络训练识别验证码等。            </li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechatpay.jpg" alt="DongSheng WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay.jpg" alt="DongSheng Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/http/" rel="tag"># http</a>
+          
+            <a href="/tags/https/" rel="tag"># https</a>
+          
+            <a href="/tags/socks5/" rel="tag"># socks5</a>
+          
+            <a href="/tags/代理/" rel="tag"># 代理</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/10/书单/" rel="next" title="2017 书单">
+                <i class="fa fa-chevron-left"></i> 2017 书单
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/12/11/Django/" rel="prev" title="Django">
+                Django <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_inline_share_toolbox">
+  <script type = "text/javascript" src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=2151375" async = "async" ></script>
+</div>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          <div class="ds-share flat" data-thread-key="2017/12/10/http-https-socks5代理/"
+     data-title="http/https/socks5代理"
+     data-content=""
+     data-url="https://mds1455975151.github.io/2017/12/10/http-https-socks5代理/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+          
+
+  <div style="display: none;">
+    <script src="//s95.cnzz.com/z_stat.php?id=1271299436&web_id=1271299436" language="JavaScript"></script>
+  </div>
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="DongSheng" />
+          <p class="site-author-name" itemprop="name">DongSheng</p>
+           
+              <p class="site-description motion-element" itemprop="description">技术、产品、管理、思维格局</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">34</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">63</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/mds1455975151" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://weibo.com/u/2098986717" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.douban.com/people/mds13693645328/" target="_blank" title="DouBan">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  DouBan
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.zhihu.com/people/nba-14" target="_blank" title="ZhiHu">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  ZhiHu
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:madscdpc@gmail.com" target="_blank" title="Email">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                  Email
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-block">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.liangxiansen.cn/" title="LiangXianSen" target="_blank">LiangXianSen</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.cnblogs.com/biglittleant/" title="大小蚂蚁" target="_blank">大小蚂蚁</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.liujiangblog.com/" title="刘江的Python及Django博客教程" target="_blank">刘江的Python及Django博客教程</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.bokeren.cc/" title="linux运维" target="_blank">linux运维</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.bobcoder.cc/" title="Bob`S BLOG" target="_blank">Bob`S BLOG</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://hexo.io/plugins/" title="Hexo Plugins" target="_blank">Hexo Plugins</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://kaixinme.s.cn.vc" title="摄影主题网站" target="_blank">摄影主题网站</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#代理IP按照隐藏代理用户级别划分"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x4EE3;&#x7406;IP&#x6309;&#x7167;&#x9690;&#x85CF;&#x4EE3;&#x7406;&#x7528;&#x6237;&#x7EA7;&#x522B;&#x5212;&#x5206;" class="headerlink" title="&#x4EE3;&#x7406;IP&#x6309;&#x7167;&#x9690;&#x85CF;&#x4EE3;&#x7406;&#x7528;&#x6237;&#x7EA7;&#x522B;&#x5212;&#x5206;"></a>&#x4EE3;&#x7406;IP&#x6309;&#x7167;&#x9690;&#x85CF;&#x4EE3;&#x7406;&#x7528;&#x6237;&#x7EA7;&#x522B;&#x5212;&#x5206;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#如何分辨一个代理IP是否高级匿名代理呢？"><span class="nav-number">2.</span> <span class="nav-text"><a href="#&#x5982;&#x4F55;&#x5206;&#x8FA8;&#x4E00;&#x4E2A;&#x4EE3;&#x7406;IP&#x662F;&#x5426;&#x9AD8;&#x7EA7;&#x533F;&#x540D;&#x4EE3;&#x7406;&#x5462;&#xFF1F;" class="headerlink" title="&#x5982;&#x4F55;&#x5206;&#x8FA8;&#x4E00;&#x4E2A;&#x4EE3;&#x7406;IP&#x662F;&#x5426;&#x9AD8;&#x7EA7;&#x533F;&#x540D;&#x4EE3;&#x7406;&#x5462;&#xFF1F;"></a>&#x5982;&#x4F55;&#x5206;&#x8FA8;&#x4E00;&#x4E2A;&#x4EE3;&#x7406;IP&#x662F;&#x5426;&#x9AD8;&#x7EA7;&#x533F;&#x540D;&#x4EE3;&#x7406;&#x5462;&#xFF1F;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代理IP应用场景"><span class="nav-number">3.</span> <span class="nav-text"><a href="#&#x4EE3;&#x7406;IP&#x5E94;&#x7528;&#x573A;&#x666F;" class="headerlink" title="&#x4EE3;&#x7406;IP&#x5E94;&#x7528;&#x573A;&#x666F;"></a>&#x4EE3;&#x7406;IP&#x5E94;&#x7528;&#x573A;&#x666F;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是代理IP的响应速度和稳定性？"><span class="nav-number">4.</span> <span class="nav-text"><a href="#&#x4EC0;&#x4E48;&#x662F;&#x4EE3;&#x7406;IP&#x7684;&#x54CD;&#x5E94;&#x901F;&#x5EA6;&#x548C;&#x7A33;&#x5B9A;&#x6027;&#xFF1F;" class="headerlink" title="&#x4EC0;&#x4E48;&#x662F;&#x4EE3;&#x7406;IP&#x7684;&#x54CD;&#x5E94;&#x901F;&#x5EA6;&#x548C;&#x7A33;&#x5B9A;&#x6027;&#xFF1F;"></a>&#x4EC0;&#x4E48;&#x662F;&#x4EE3;&#x7406;IP&#x7684;&#x54CD;&#x5E94;&#x901F;&#x5EA6;&#x548C;&#x7A33;&#x5B9A;&#x6027;&#xFF1F;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代理IP按用途可以分为哪几类"><span class="nav-number">5.</span> <span class="nav-text"><a href="#&#x4EE3;&#x7406;IP&#x6309;&#x7528;&#x9014;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x54EA;&#x51E0;&#x7C7B;" class="headerlink" title="&#x4EE3;&#x7406;IP&#x6309;&#x7528;&#x9014;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x54EA;&#x51E0;&#x7C7B;"></a>&#x4EE3;&#x7406;IP&#x6309;&#x7528;&#x9014;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x54EA;&#x51E0;&#x7C7B;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#浏览器切换代理软件"><span class="nav-number">6.</span> <span class="nav-text"><a href="#&#x6D4F;&#x89C8;&#x5668;&#x5207;&#x6362;&#x4EE3;&#x7406;&#x8F6F;&#x4EF6;" class="headerlink" title="&#x6D4F;&#x89C8;&#x5668;&#x5207;&#x6362;&#x4EE3;&#x7406;&#x8F6F;&#x4EF6;"></a>&#x6D4F;&#x89C8;&#x5668;&#x5207;&#x6362;&#x4EE3;&#x7406;&#x8F6F;&#x4EF6;</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常见反爬虫策略"><span class="nav-number">7.</span> <span class="nav-text"><a href="#&#x5E38;&#x89C1;&#x53CD;&#x722C;&#x866B;&#x7B56;&#x7565;" class="headerlink" title="&#x5E38;&#x89C1;&#x53CD;&#x722C;&#x866B;&#x7B56;&#x7565;"></a>&#x5E38;&#x89C1;&#x53CD;&#x722C;&#x866B;&#x7B56;&#x7565;</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">DongSheng</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'mdslq';
+      var disqus_identifier = '2017/12/10/http-https-socks5代理/';
+
+      var disqus_title = "http/https/socks5代理";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="local-search-pop-overlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>

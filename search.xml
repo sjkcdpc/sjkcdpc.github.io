@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[单个GitHub账号添加多个GitHub Pages问题]]></title>
+      <url>/2017/12/13/%E5%8D%95%E4%B8%AAGitHub%E8%B4%A6%E5%8F%B7%E6%B7%BB%E5%8A%A0%E5%A4%9A%E4%B8%AAGitHub-Pages%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如何在单个GitHub账号下添加多个GitHub Pages以达到新建多个站点目的？</p>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p><a href="https://pages.github.com/" target="_blank" rel="noopener">官网资料</a></p>
+<h2 id="GitHub-Pages的分类和区别"><a href="#GitHub-Pages的分类和区别" class="headerlink" title="GitHub Pages的分类和区别"></a>GitHub Pages的分类和区别</h2><p>1、GitHub Pages分为两类:User or organization site、Project site<br>2、个人主页必须要和用户的GitHub帐号同名，所以每个用户有且只能有一个repo作为个人主页，且必须是<username>/<username>.github.io的形式；而项目主页的命名则没有这种限制，且数量有任意多个。<br>3、不考虑绑定的自定义域名的前提下，个人主页的GitHub二级域名为<username>.github.io;项目主页的GitHub二级域名为<username>.github.io/<projectname>,没有<projectname>.<username>.github.io这种方式<br>4、个人主页的展示内容以master分支里的文件为准；而项目主页的展示内容以gh-pages分支内的文件为准</username></projectname></projectname></username></username></username></username></p>
+<h2 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="解决方案"></a>解决方案</h2><p>新建项目GitHub Pages即可解决以上需求，大体流程总结如下：<br>1、新建repo，名字自定义，例如：chongwu<br>2、repo设置修改GitHub Pages部分Source设置，选择master branch<br>3、访问测试<a href="https://mds1455975151.github.io/chongwu">https://mds1455975151.github.io/chongwu</a><br>4、设置自定义域名www.cwquery.com,设置方法：repo添加CNAME文件即可<br>5、访问测试 <a href="http://www.cwquery.com/" target="_blank" rel="noopener">http://www.cwquery.com/</a></p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://segmentfault.com/a/1190000003946969" target="_blank" rel="noopener">单个GitHub帐号下添加多个GitHub Pages的相关问题</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Github </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> chongwu </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[网站被搜索引擎降权]]></title>
+      <url>/2017/12/12/%E7%BD%91%E7%AB%99%E8%A2%AB%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E9%99%8D%E6%9D%83/</url>
+      <content type="html"><![CDATA[<p>引起被搜索引擎降权的各种原因总结：<br>1、服务器或空间不稳定，经常打不开，最主要原因<br>2、网站经常更换名称<br>3、网站改版，没有做好相应优化工作<br><a id="more"></a><br>4、各类违法内容(色情、赌博等)<br>5、相同IP下的网站降权，被牵连<br>6、网站在交换友情链接的时候不要和一些被k的站点交换<br>7、频繁更换目录，出现大量404链接<br>8、网站属于<a href="https://baike.baidu.com/item/%E7%AB%99%E7%BE%A4/6793013?fr=aladdin" target="_blank" rel="noopener">站群</a><br>9、网站被挂马<br>10、网站架构表达主题不清晰的，需要编辑的写作能力的和关键字的拓展穿插<br>11、垃圾内容的降权，比如网站有大量的转载、采集、伪原创以及与主题不相关的内容是网站优化中的大忌<br>12、多度优化，标题、meta标签中放置过多的关键词、回链数量太多、刻意的调整关键词密度等<br>13、垃圾链太多，记住宁缺毋滥<br>14、使用群发软件<br>15、挂广告，挂广告是很影响网站质量的，特别是不相关内容的广告，严重损害搜索引擎对网站的信任度。尤其恶劣的是弹窗广告，会严重影响网页的质量；<br>16、高权重链接增长过快。对新站而言，首页被K，首页降权的原因就是：首页在短期内添加友情链接过多，特别是高权重的链接，超出正常的新站发展程度，就会被认为作弊，导致被惩罚。所以，适度增加外链很重要，建议首月不要添加超过8个友链；<br>17、页面的重复度过高。如发布了很多重复的标题，没有删除，都被收录了，网站就会受到处罚；<br>18、死链接过多。原来被收录的页面删除了，就会出现死链接。如何查找死链接，最准确的就是通过日志来看，由蜘蛛、机器人来判断。死链接过多就会降低搜索引擎对网站的信任度，增加用户跳出率，导致被降权的；<br>19、同时开拓了过多的二级域名，超过5个以上，搜索引擎就会认为是作弊。中小型网站二级域名过多，会导致关键词的相关性下降，网站的收录就可能清零；<br>20、大批量重复页面和无内容页面的产生。例如：打印页、会话ID、个人资料页、评论页等，都是一个独立的动态地址，都会导致网站降权的；<br>21、页面质量下降。例如：页面的打开速度过慢，JS调用过多：加入了过多的客服、站长统计、天气预报等，都严重影响用户的体验，都是导致网站降权的因素。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> SEO </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> SEO </tag>
+            
+            <tag> 搜索引擎 </tag>
+            
+            <tag> 降权 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo绑定自定义域名]]></title>
+      <url>/2017/12/12/Hexo%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>GitHub Pages如何绑定自定义域名？</p>
+<h1 id="设置步骤详解"><a href="#设置步骤详解" class="headerlink" title="设置步骤详解"></a>设置步骤详解</h1><h2 id="设置网站域名"><a href="#设置网站域名" class="headerlink" title="设置网站域名"></a>设置网站域名</h2><p>在source目录下新建CNAME文件，在首行添加网站域名，如<a href="www.mdslq.cn">www.mdslq.cn</a>.注意前面没有<a href="https://、http://" target="_blank" rel="noopener">https://、http://</a> 以及www等信息，然后重新重新生成并部署站点<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h2 id="设置域名解析"><a href="#设置域名解析" class="headerlink" title="设置域名解析"></a>设置域名解析</h2><p>1、先添加一个CNAME，主机记录写@，后面记录值写上你的<a href="mds1455975151.github.io">mds1455975151.github.io</a><br>2、再添加一个CNAME，主机记录写www，后面记录值也是<a href="mds1455975151.github.io">mds1455975151.github.io</a><br>这样别人用www和不用www都能访问你的网站（其实www的方式，会先解析成<a href="https://mds1455975151.github.io">https://mds1455975151.github.io</a>，然后根据CNAME再变成<a href="http://www.mdslq.com" target="_blank" rel="noopener">http://www.mdslq.com</a>，即中间是经过一次转换的）。<br>注：除了使用CNAME记录也有人使用A记录，后面的记录值是写github page里面的ip地址，但有时候IP地址会更改，导致最后解析不正确，所以还是推荐用CNAME别名记录要好些，不建议用IP。<br>3、等待10分钟左右，域名生效后刷新浏览器，使用自定义域名访问网站即可</p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://help.github.com/articles/about-supported-custom-domains/" target="_blank" rel="noopener">官网相关资料</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="noopener">github怎么绑定自己的域名？</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 自定义域名 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo渲染时排除部分文件或目录]]></title>
+      <url>/2017/12/12/Hexo%E6%B8%B2%E6%9F%93%E6%97%B6%E6%8E%92%E9%99%A4%E9%83%A8%E5%88%86%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>搜索引擎确认网站所有权时往往会提供一个html文件来进行验证，要是这个文件被渲染了，验证自然就会失败了。或者，有时候会写一些简单的html示例页面，这也是不希望Hexo渲染的。因此有必要针对某个文件或者目录进行排除。Hexo的配置文件中提供了配置项skip_render，可以解决以上问题。<br><a id="more"></a></p>
+<h1 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h1><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>只有source目录下的文件才会发布到public（能够在网络上访问到），因此Hexo只渲染source目录下的文件。skip_render参数设置的路径是相对于source目录的路径。</p>
+<h2 id="设置排除项"><a href="#设置排除项" class="headerlink" title="设置排除项"></a>设置排除项</h2><p>假设source目录下文件如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span></span><br><span class="line"> _data</span><br><span class="line"> _posts</span><br><span class="line"> about</span><br><span class="line"> categories</span><br><span class="line"> tags</span><br><span class="line"> works</span><br><span class="line"> 404.html</span><br><span class="line"> baidu_verify_84yQGJByTM.html</span><br><span class="line"> BingSiteAuth.html</span><br><span class="line"> googleec6843bf1010ba92.html</span><br></pre></td></tr></table></figure></p>
+<h2 id="排除单个文件"><a href="#排除单个文件" class="headerlink" title="排除单个文件"></a>排除单个文件</h2><p>排除baidu的html验证文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: <span class="string">' baidu_verify_84yQGJByTM.html'</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="排除多个文件"><a href="#排除多个文件" class="headerlink" title="排除多个文件"></a>排除多个文件</h2><p>排除所有的html验证文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - <span class="string">'baidu_verify_84yQGJByTM.html'</span></span><br><span class="line">  - <span class="string">'BingSiteAuth.html'</span></span><br><span class="line">  - <span class="string">'googleec6843bf1010ba92.html'</span></span><br></pre></td></tr></table></figure></p>
+<p>或者<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">skip_render: <span class="string">'*.html'</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="完成后验证效果"><a href="#完成后验证效果" class="headerlink" title="完成后验证效果"></a>完成后验证效果</h2><p>wget修改前后的html页面对比即可</p>
+<h1 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h1><p><a href="https://www.maoxuner.cn/2017/03/10/hexo-skip-render.html" target="_blank" rel="noopener">Hexo渲染时排除部分文件或目录</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 完整所有权验证 </tag>
+            
+            <tag> Google </tag>
+            
+            <tag> Baidu </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tinyproxy]]></title>
+      <url>/2017/12/11/tinyproxy/</url>
+      <content type="html"><![CDATA[<p><a href="http://tinyproxy.github.io/" target="_blank" rel="noopener">官网</a><br>privoxy+ss<br>squid<br>stunel</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[AWS]]></title>
+      <url>/2017/12/11/AWS/</url>
+      <content type="html"><![CDATA[<h1 id="Amazon-EC2设置"><a href="#Amazon-EC2设置" class="headerlink" title="Amazon EC2设置"></a>Amazon EC2设置</h1><p>1、注册AWS<br>2、创建IAM用户<br>3、创建密钥对<br>4、创建VPC<br>5、创建安全组</p>
+]]></content>
+      
+        <categories>
+            
+            <category> AWS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> AWS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[责任]]></title>
+      <url>/2017/12/11/%E8%B4%A3%E4%BB%BB/</url>
+      <content type="html"><![CDATA[<p><img src="/2017/12/11/责任/01.jpg" alt=""><br>如果拉车的是你，<br>上有爹和妈，下有妻和娃，<br>一不小心打个滑，<br>你能给家人留点啥？<br>也许你是别人眼里的草，<br>但你却是家人的天，<br>作为一个男人，要活出担当。<br>作为一个女人，要活出责任。</p>
+<p>男人累了，那是因为<br>背后沒有助推的女人。<br>女人累了，那是因为<br>没有拉车的男人。<br>父母累了，那是因为<br>没有了能担当的儿女。<br>孩子累了，那是因为<br>没有了该像个家的家。<br>所以你活着，<br>不要让自己太轻松，<br>因为他们需要你的真实存在，<br>而不仅仅是一个称呼而已。</p>
+<p>别觉得自己活得苦，<br>活得累，活得委屈，<br>其实每个人活得都不容易。<br>只不过别人的难处，<br>别人的辛苦，<br>你没有看到罢了。</p>
+<p>累就对了，<br>舒坦是留给死人的；<br>苦就对了，<br>谁不是在苦中作乐品尝幸福。<br>所以活着就有疲惫，<br>就有汗水，就要奋斗，就要折腾，<br>就要历经风雨，<br>就要担起肩上的责任！</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 思考 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 责任 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Redis keys事件]]></title>
+      <url>/2017/12/11/Redis-keys%E4%BA%8B%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>昨天发了一篇Redis常见问题的文章，同事看后发现一个问题，即：线上一般禁止使用keys命令。之前都没了解过这块，马上查了查资料，完善下自己的知识体系。</p>
+<h1 id="keys命令概述"><a href="#keys命令概述" class="headerlink" title="keys命令概述"></a>keys命令概述</h1><p>version 1.0.0.+ 功能</p>
+<h2 id="keys命令使用"><a href="#keys命令使用" class="headerlink" title="keys命令使用"></a>keys命令使用</h2><p>功能：Find all keys matching the given pattern<br><a href="https://redis.io/commands/keys" target="_blank" rel="noopener">详细使用参考官网文档</a><br><a id="more"></a><br>简单用法举例：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1:6379&gt; keys pattern</span><br><span class="line">127.0.0.1:6379&gt; MSET firstname Jack lastname Stuntman age 35</span><br><span class="line">OK</span><br><span class="line">127.0.0.1:6379&gt; keys *name*</span><br><span class="line">1) <span class="string">"lastname"</span></span><br><span class="line">2) <span class="string">"firstname"</span></span><br><span class="line">127.0.0.1:6379&gt; keys a??</span><br><span class="line">1) <span class="string">"age"</span></span><br><span class="line">127.0.0.1:6379&gt; keys *</span><br><span class="line">1) <span class="string">"age"</span></span><br><span class="line">2) <span class="string">"lastname"</span></span><br><span class="line">3) <span class="string">"firstname"</span></span><br></pre></td></tr></table></figure></p>
+<p>Supported glob-style patterns:</p>
+<ul>
+<li>h?llo matches hello, hallo and hxllo</li>
+<li>h*llo matches hllo and heeeello</li>
+<li>h[ae]llo matches hello and hallo, but not hillo</li>
+<li>h[^e]llo matches hallo, hbllo, … but not hello</li>
+<li>h[a-b]llo matches hallo and hbllo<br>Use \ to escape special characters if you want to match them verbatim.</li>
+</ul>
+<h2 id="关于keys的使用官方建议"><a href="#关于keys的使用官方建议" class="headerlink" title="关于keys的使用官方建议"></a>关于keys的使用官方建议</h2><p>Warning: consider KEYS as a command that should only be used in production environments with extreme care. It may ruin performance when it is executed against large databases. This command is intended for debugging and special operations, such as changing your keyspace layout. Don’t use KEYS in your regular application code. If you’re looking for a way to find keys in a subset of your keyspace, consider using SCAN or sets.<br>警告：在生产环境中慎用keys命令，当对大型数据库执行操作可能导致性能下降。此命令可以用于调试和特殊操作，例如修改键盘空间布局。不要在你的应用程序代码中使用keys*.如果你正在寻找一种方法在您的keys空间的子集中查找keys,请考虑使用SCAN or sets.</p>
+<h2 id="如何在生产环境禁用keys命令"><a href="#如何在生产环境禁用keys命令" class="headerlink" title="如何在生产环境禁用keys命令"></a>如何在生产环境禁用keys命令</h2><p>在配置中增加如下配置,其他危险操作禁用方法类似：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rename-command FLUSHALL <span class="string">""</span>  </span><br><span class="line">rename-command FLUSHDB <span class="string">""</span>  </span><br><span class="line">rename-command KEYS <span class="string">""</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="生产故障案例"><a href="#生产故障案例" class="headerlink" title="生产故障案例"></a>生产故障案例</h2><p><a href="http://blog.csdn.net/a930716/article/details/53074247" target="_blank" rel="noopener">迅雷动魄惊心的redis keys事件</a><br><a href="http://blog.csdn.net/asdfsadfasdfsa/article/details/60144412" target="_blank" rel="noopener">redis禁用keys命令做模糊匹配</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Redis </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Redis </tag>
+            
+            <tag> keys </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Django]]></title>
+      <url>/2017/12/11/Django/</url>
+      <content type="html"><![CDATA[<p><a href="https://docs.djangoproject.com/en/2.0/" target="_blank" rel="noopener">官网</a> 你需要知道关于Django的一切</p>
+<h1 id="How-the-documentation-is-organized-文档是如何组织"><a href="#How-the-documentation-is-organized-文档是如何组织" class="headerlink" title="How the documentation is organized 文档是如何组织"></a>How the documentation is organized 文档是如何组织</h1><ul>
+<li>教程通过一系列步骤来帮助您创建web应用程序。</li>
+<li>主题指南</li>
+<li>参考指南</li>
+<li>如何做的指南</li>
+</ul>
+<h1 id="First-steps-第一步"><a href="#First-steps-第一步" class="headerlink" title="First steps 第一步"></a>First steps 第一步</h1><h2 id="From-scratch-从头开始"><a href="#From-scratch-从头开始" class="headerlink" title="From scratch 从头开始"></a>From scratch 从头开始</h2><h3 id="Overview-概述"><a href="#Overview-概述" class="headerlink" title="Overview 概述"></a>Overview 概述</h3><h3 id="Installation-安装"><a href="#Installation-安装" class="headerlink" title="Installation 安装"></a>Installation 安装</h3><p>Quick install guide<br>Install Python<br>Set up a database<br>Remove any old versions of Django<br>Install Django<br>Verifying<br>That’s it!<br>Browse</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Django </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Django </tag>
+            
+            <tag> web框架 </tag>
+            
+            <tag> Python </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[http/https/socks5代理]]></title>
+      <url>/2017/12/10/http-https-socks5%E4%BB%A3%E7%90%86/</url>
+      <content type="html"><![CDATA[<h1 id="代理IP按照隐藏代理用户级别划分"><a href="#代理IP按照隐藏代理用户级别划分" class="headerlink" title="代理IP按照隐藏代理用户级别划分"></a>代理IP按照隐藏代理用户级别划分</h1><p>代理IP分为透明代理IP、匿名代理IP和高匿代理IP。                </p>
+<ul>
+<li>透明代理IP，对方知道你使用的代理IP也看得到你的真实IP；                </li>
+<li>匿名代理IP，对方知道你使用了代理IP，但是无法直接看到你真实IP地址；当然通过一些手段还是可以看到的;                </li>
+<li>高匿代理IP，不改变客户机的请求，在服务器看来就是有个真正的客户浏览器在访问它，此时客户的真实IP是隐藏的，服务器端更不会认为我们使用了代理。    </li>
+</ul>
+<a id="more"></a>
+<h1 id="如何分辨一个代理IP是否高级匿名代理呢？"><a href="#如何分辨一个代理IP是否高级匿名代理呢？" class="headerlink" title="如何分辨一个代理IP是否高级匿名代理呢？"></a>如何分辨一个代理IP是否高级匿名代理呢？</h1><p>对于老鸟来说，要想识别IP代理的等级并不复杂，只需要通过脚本程序（如ASP PHP JSP等）即可在服务器端识别出来，识别的办法就是抓数据包里的相关字段：REMOTE_ADDR，HTTP_VIA以及HTTP_X_FORWARDED_FOR。</p>
+<ul>
+<li>透明代理<ul>
+<li>REMOTE_ADDR = Proxy IP</li>
+<li>HTTP_VIA = Proxy IP</li>
+<li>HTTP_X_FORWARDED_FOR = Your IP</li>
+</ul>
+</li>
+<li>普通匿名代理<ul>
+<li>REMOTE_ADDR = proxy IP</li>
+<li>HTTP_VIA = proxy IP</li>
+<li>HTTP_X_FORWARDED_FOR = proxy IP</li>
+</ul>
+</li>
+<li>高匿代理<ul>
+<li>REMOTE_ADDR = Proxy IP</li>
+<li>HTTP_VIA = not determined</li>
+<li>HTTP_X_FORWARDED_FOR = not determined<br>当然，对于新手来说，可能有一定的困难，需要借助代理IP工具去分辨。</li>
+</ul>
+</li>
+</ul>
+<h1 id="代理IP应用场景"><a href="#代理IP应用场景" class="headerlink" title="代理IP应用场景"></a>代理IP应用场景</h1><ul>
+<li>当你发现某个网站必须要本地人才能注册访问时，你是否很郁闷；</li>
+<li>当你参加了一个活动，想要投很多票的时候，发现一天只能一票，难道就不能多投几票吗；</li>
+<li>当你想访问一些特殊的网站时，发现没有权限，是否很纠结；</li>
+<li>当你想注册一个网站时，被告知24小时一个IP只能注册一次，是否很纳闷……</li>
+</ul>
+<p>总之，在互联网这个行业待久了，你会发现有很多时候非常的无奈，当老板指责你时，你能说“我能怎么办呢，我也很绝望啊”这句话吗？</p>
+<p>其实，这些问题并不是不能解决，只需要使用代理IP就可以完美的避开这些雷区。<br>当遇到地区限制时，找一个该地区的代理IP，用浏览器设置下，或者放在相应的软件里，就可以了；<br>当要投很多票的时候，完全可以找很多代理IP，投一票切换一个代理IP，第一名还会远吗。<br>有了代理IP，这些问题都不再是问题……<br>总结：</p>
+<ul>
+<li>突破网站限制</li>
+<li>突破地域限制</li>
+<li>隐藏真实身份</li>
+<li>提高下载速度</li>
+</ul>
+<h1 id="什么是代理IP的响应速度和稳定性？"><a href="#什么是代理IP的响应速度和稳定性？" class="headerlink" title="什么是代理IP的响应速度和稳定性？"></a>什么是代理IP的响应速度和稳定性？</h1><p>选择代理IP时经常看到两个参数：稳定时长和响应速度。那么，什么是代理IP的响应速度，什么是代理IP的稳定时长呢？</p>
+<p>代理IP的响应速度是指我们用这个代理去访问百度首页所需要的时间。响应速度根据使用代理的机器所在的地理位置不同而有差异。响应时间越短，速度越快！</p>
+<p>代理IP的稳定时长顾名思义就是代理IP的有效时间有多长，比如动态高质量代理，稳定时长是2分钟，也就是说，2分钟后，代理IP就会失效，不能再用了，需要重新提取；普通代理时长几分钟、几小时、几天，甚至更长，因服务器扫描，IP存活时间不定，可以筛选。</p>
+<h1 id="代理IP按用途可以分为哪几类"><a href="#代理IP按用途可以分为哪几类" class="headerlink" title="代理IP按用途可以分为哪几类"></a>代理IP按用途可以分为哪几类</h1><p>代理IP按用途分类可以分哪几类呢？下面我们一起来看看，有些我们经常用，有些非常少用。</p>
+<ul>
+<li>Http代理：最常用的代理，代理客户机的http访问，主要代理浏览器访问网页，它的端口一般为80、8080、3128等。</li>
+<li>SSL代理也叫HTTPS代理，支持最高128位加密强度的http代理，可以作为访问加密网站的代理。加密网站是指以https//开始的网站。ssl的标准端口为443。</li>
+<li>HTTP CONNECT代理：允许用户建立TCP连接到任何端口的代理服务器，这种代理不仅可用于HTTP，还包括FTP、IRC、RM流服务等。</li>
+<li>FTP代理：代理客户机上的ftp软件访问ftp服务器，其端口一般为21、2121。</li>
+<li>POP3代理：代理客户机上的邮件软件用pop3方式收邮件，其端口一般为110。</li>
+<li>Telnet代理：能够代理通信机的telnet，用于远程控制，入侵时经常使用。其端口一般为23。</li>
+<li>Socks代理：是全能代理，就像有很多跳线的转接板，它只是简单地将一端的系统连接到另外一端。支持多种协议，包括http、ftp请求及其它类型的请求。它分socks 4 和socks 5两种类型，socks 4只支持TCP协议而socks 5支持TCP/UDP协议，还支持各种身份验证机制等协议。其标准端口为1080。</li>
+<li>TUNNEL代理：经HTTPTunnet程序转换的数据包封装成http请求（Request）来穿透防火墙，允许利用HTTP服务器做任何TCP可以做的事情，功能相当于Socks5。</li>
+<li>文献代理：可以用来查询数据库的代理，通过这些代理，可以获得互联网的相关科研学术的数据库资源，例如查询Sciencedirect网站（简称SD）、Academic Press、IEEE，SPRINGER等数据库。</li>
+<li>教育网代理：指学术教育机构局域网通过特定的代理服务器可使无出国权限或无访问某IP段权限的计算机访问相关资源。</li>
+<li>跳板代理：应用于跳板程序，可以看作一种具有动态加密的特殊socks5代理，，也可直接用于PSD软件。其端口一般为1813。</li>
+<li>Ssso代理：代理客户机上的ssso程序访问远程网站，具有SSL加密强度的超级代理，支持socks。</li>
+<li>Flat代理：代理客户机上的flatsurfer程序访问远程网站，具有高强度加密数据流的特殊代理，支持socks，最大可设置三次级联，可以设置穿越代理。其端口一般为6700。</li>
+<li>SoftE代理：代理客户机上的SoftEther程序访问远程网站，应用虚拟集线器HUB和虚拟网卡技术，具备VPN功能及多种认证方式的代理，符合https协议。</li>
+</ul>
+<h1 id="浏览器切换代理软件"><a href="#浏览器切换代理软件" class="headerlink" title="浏览器切换代理软件"></a>浏览器切换代理软件</h1><p>火狐浏览器：AutoProxy<br>Chrome浏览器： SwitchyOmega</p>
+<h1 id="常见反爬虫策略"><a href="#常见反爬虫策略" class="headerlink" title="常见反爬虫策略"></a>常见反爬虫策略</h1><p>抓取稍微正规一点的网站，都会有反爬虫的制约。反爬虫主要有以下几种方式：</p>
+<ul>
+<li>通过UA判断。这是最低级的判断，一般反爬虫不会用这个做唯一判断，因为反反爬虫非常容易，直接随机UA即可解决。</li>
+<li>通过单IP频繁访问判断。这个判断简单，而且反爬虫比较费力，反爬虫绝佳方案。需采用多IP抓取。</li>
+<li>通过Cookie判断，例如通过会员制账号密码登陆，判断单账号短时间抓取次数判断。这个反爬虫也很费力。需采用多账号抓取。</li>
+<li>动态页面加载。这个考验前端工程师的功底，如果前端写的好，各种JS判断，各种逻辑，像百度、淘宝一样，post登录很难。较好的方法，但是对于大牛，还是防不胜防。反爬虫多采用渲染浏览器抓取，效率低下。</li>
+<li>采用验证码。这里要么是登录的时候有验证码，要么是判断是爬虫时，不封IP，而是采用验证码验证，例如链家网。验证码是反爬虫性价比较高的方案。反反爬虫一般接入OCR验证码识别平台或者人工打码平台，亦或者利用Tesseract OCR识别，亦或者采用神经网络训练识别验证码等。            </li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> http </tag>
+            
+            <tag> https </tag>
+            
+            <tag> socks5 </tag>
+            
+            <tag> 代理 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[2017 书单]]></title>
+      <url>/2017/12/10/%E4%B9%A6%E5%8D%95/</url>
+      <content type="html"><![CDATA[<p>凤凰项目 一个IT运维的传奇故事<br><img src="/2017/12/10/书单/01.jpg" alt=""><br>持续交付 发布可靠软件的系统方法<br>企业管理小说成功典范：目标（第3版）（白金版）<br>精益创业<br>DevOps实践：驭DevOps之力强化技术栈并优化IT运行<br>Jenkins权威指南<br><img src="/2017/12/10/书单/05.jpg" alt=""><br>思考，快与慢<br>金字塔原理大全集（套装共2册）<br>培训师成长手册：课程开发实用技巧与工具（第3版）</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 思考 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 书单 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[搭建本地pypi源方法]]></title>
+      <url>/2017/12/10/%E6%90%AD%E5%BB%BA%E6%9C%AC%E5%9C%B0pypi%E6%BA%90%E6%96%B9%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p>1）创建存放pypi软件包的目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-01 ~]<span class="comment"># mkdir -p /data/pypi</span></span><br></pre></td></tr></table></figure></p>
+<p>2）安装pip2pi软件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-01 ~]<span class="comment"># pip install pip2pi</span></span><br></pre></td></tr></table></figure></p>
+<p>3）配置要同步的pypi源（豆瓣）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-01 ~]<span class="comment"># vim .pip/.pip.conf</span></span><br><span class="line">[global]</span><br><span class="line">index-url = http://pypi.douban.com/simple</span><br></pre></td></tr></table></figure></p>
+<p>4）同步软件（单个或者批量同步）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">单个软件</span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># pip2tgz /data/pypi pip==7.1.2</span></span><br><span class="line">批量同步</span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># cat requirements.txt</span></span><br><span class="line">pbr&gt;=0.6,&lt;1.0</span><br><span class="line">SQLAlchemy&gt;=0.7.8,&lt;=0.9.99</span><br><span class="line">amqplib&gt;=0.6.1</span><br><span class="line">anyjson&gt;=0.3.3</span><br><span class="line">argparse</span><br><span class="line">boto&gt;=2.12.0,!=2.13.0</span><br><span class="line">eventlet&gt;=0.13.0</span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># pip2tgz /data/pypi -r ./requirements.txt</span></span><br></pre></td></tr></table></figure></p>
+<p>5）同步后建立索引<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-01 ~]<span class="comment"># dir2pi /data/pypi/</span></span><br><span class="line">或者对指定的软件包更新其索引</span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># pip2acmeco name</span></span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># pip2acmeco -r requirements.txt</span></span><br></pre></td></tr></table></figure></p>
+<p>6）配置web访问界面<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">[root@hadoop-01 ~]<span class="comment"># ln -s /pypi /var/www/html/pypi</span></span><br><span class="line">```  </span><br><span class="line">7）测试</span><br><span class="line">``` bash</span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># cat .pip/.pip.conf</span></span><br><span class="line">[global]</span><br><span class="line">index-url=http://172.16.1.171/pypi/simple</span><br><span class="line"></span><br><span class="line">[root@hadoop-01 ~]<span class="comment"># pip install argparse</span></span><br><span class="line">Collecting argparse</span><br><span class="line">/usr/lib/python2.6/site-packages/pip-7.1.2-py2.6.egg/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90:InsecurePlatformWarning: A <span class="literal">true</span> SSLContext object is not available. Thisprevents urllib3 from configuring SSL appropriately and may cause certain SSLconnections to fail. For more information, seehttps://urllib3.readthedocs.org/en/latest/security.html<span class="comment">#insecureplatformwarning.</span></span><br><span class="line">  InsecurePlatformWarning</span><br><span class="line">  Using cached argparse-1.4.0-py2.py3-none-any.whl</span><br><span class="line">Installing collected packages: argparse</span><br><span class="line">Successfully installed argparse-1.4.0</span><br></pre></td></tr></table></figure></p>
+<p>8）其他pip源<br><a href="http://mirrors.aliyun.com/pypi/simple/" target="_blank" rel="noopener">阿里云</a><br><a href="https://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="noopener">中国科技大学</a><br><a href="http://pypi.douban.com/simple/" target="_blank" rel="noopener">豆瓣(douban)</a><br><a href="https://pypi.tuna.tsinghua.edu.cn/simple/" target="_blank" rel="noopener">清华大学</a><br><a href="https://pypi.python.org/simple/" target="_blank" rel="noopener">Python官方</a><br><a href="http://pypi.mirrors.opencas.cn/simple/" target="_blank" rel="noopener">中国科学院</a><br><a href="https://pypi.tuna.tsinghua.edu.cn/simple/" target="_blank" rel="noopener">清华大学</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> pypi </tag>
+            
+            <tag> 源 </tag>
+            
+            <tag> 本地源 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Fabric]]></title>
+      <url>/2017/12/10/Fabric/</url>
+      <content type="html"><![CDATA[<p><a href="http://fabric-chs.readthedocs.io/zh_CN/chs/" target="_blank" rel="noopener">Fabric中文手册</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Fabric </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[clustershell]]></title>
+      <url>/2017/12/10/clustershell/</url>
+      <content type="html"><![CDATA[<p><a href="http://cea-hpc.github.io/clustershell/" target="_blank" rel="noopener">官网</a><br><a href="https://github.com/cea-hpc/clustershell" target="_blank" rel="noopener">Github Docs Repo</a><br><a href="http://clustershell.readthedocs.io/en/latest/" target="_blank" rel="noopener">Github Docs</a></p>
+<h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># yum install clustershell</span><br><span class="line">clush</span><br><span class="line">cluset</span><br><span class="line">nodeset</span><br><span class="line">clubak</span><br></pre></td></tr></table></figure>
+<h1 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$ vim /etc/clustershell/groups.d/local.cfg</span><br><span class="line"># nodeset -L</span><br><span class="line">@all</span><br><span class="line"># nodeset -LL</span><br><span class="line">@all 127.0.0.1,172.16.0.2</span><br><span class="line"></span><br><span class="line">ssh-copy-id 127.0.0.1</span><br><span class="line">ssh-copy-id 172.16.0.2</span><br><span class="line"></span><br><span class="line"># clush -a &apos;free -g&apos;</span><br><span class="line">127.0.0.1:               total        used        free      shared  buff/cache   available</span><br><span class="line">127.0.0.1: Mem:              0           0           0           0           0           0</span><br><span class="line">127.0.0.1: Swap:             0           0           0</span><br><span class="line">172.16.0.2:               total        used        free      shared  buff/cache   available</span><br><span class="line">172.16.0.2: Mem:              0           0           0           0           0           0</span><br><span class="line">172.16.0.2: Swap:             0           0           0</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> clustershell </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Redis常见问题]]></title>
+      <url>/2017/12/10/Redis%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</url>
+      <content type="html"><![CDATA[<h1 id="取值报错"><a href="#取值报错" class="headerlink" title="取值报错"></a>取值报错</h1><p>报错信息：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1:6379&gt; keys *</span><br><span class="line">1) <span class="string">"proxy_zset"</span></span><br><span class="line">127.0.0.1:6379&gt; get proxy_zset</span><br><span class="line">(error) WRONGTYPE Operation against a key holding the wrong kind of value</span><br></pre></td></tr></table></figure></p>
+<p>解决：<br>先判断存储的数据类型，然后根据数据类型获取内容<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">127.0.0.1:6379&gt; <span class="built_in">type</span> proxy_zset</span><br><span class="line">zset</span><br><span class="line">127.0.0.1:6379&gt; zrange proxy_zset 0 55</span><br><span class="line"> 1) <span class="string">"1.197.200.195:808"</span></span><br><span class="line"> 2) <span class="string">"101.37.79.125:3128"</span></span><br><span class="line"> 3) <span class="string">"110.73.31.7:8123"</span></span><br><span class="line"> 4) <span class="string">"110.73.7.37:8123"</span></span><br><span class="line"> 5) <span class="string">"111.235.158.14:808"</span></span><br><span class="line"> 6) <span class="string">"112.114.96.45:8118"</span></span><br><span class="line"> 7) <span class="string">"112.114.97.50:8118"</span></span><br><span class="line"> 8) <span class="string">"112.95.191.160:9797"</span></span><br><span class="line"> 9) <span class="string">"113.109.248.30:9797"</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Redis </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Redis </tag>
+            
+            <tag> proxy </tag>
+            
+            <tag> zrange </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo设置阅读全文功能]]></title>
+      <url>/2017/12/09/Hexo%E8%AE%BE%E7%BD%AE%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87%E5%8A%9F%E8%83%BD/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Hexo如何设置提供一个链接阅读全文来进入文章的详情页。</p>
+<h1 id="设置方法讲解"><a href="#设置方法讲解" class="headerlink" title="设置方法讲解"></a>设置方法讲解</h1><h2 id="文章中使用设置手动截断-推荐"><a href="#文章中使用设置手动截断-推荐" class="headerlink" title="文章中使用设置手动截断(推荐)"></a>文章中使用设置手动截断(推荐)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># 前言</span><br><span class="line">&amp;emsp;&amp;emsp;GitHub为广大开发者提供了一个非常好的平台，不仅是代码的开源，同时GitHub还提供了开发者可以在GitHub上建立自己的站点（GithubPage）的一个非常有意思的功能。它功能有限只能创建静态的网站。</span><br><span class="line">&amp;emsp;&amp;emsp;本文整理自己的部署过程，意在帮助那些刚刚接触GitHub的新手同学，可以利用GitHub快速创建高逼格的个人博客站点。</span><br><span class="line"></span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line"># 准备工作</span><br><span class="line">- GitHub账号，创建一个仓库，规则为：例如我的账号为mds1455975151，则新建仓库名称为mds1455975151.github.io</span><br><span class="line">- NodeJS环境及相关基本知识，我的环境如下：</span><br><span class="line"> - os: Windows_NT 6.1.7601 win32 x64</span><br><span class="line"> - node: 8.9.2</span><br><span class="line">- Git基本使用及git for windows安装使用。</span><br><span class="line"> - git version: 2.15.0.windows.1</span><br></pre></td></tr></table></figure>
+<h2 id="设置并显示文章摘要"><a href="#设置并显示文章摘要" class="headerlink" title="设置并显示文章摘要"></a>设置并显示文章摘要</h2><p>设置description属性<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Git常见问题解决</span><br><span class="line">date: 2017-12-08 21:40:28</span><br><span class="line">categories: 技术</span><br><span class="line">tags: [Git,常见问题]</span><br><span class="line">description: 日常使用git遇到的各种报错及问题详解</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p>
+<h2 id="自动形成摘要设置截断长度"><a href="#自动形成摘要设置截断长度" class="headerlink" title="自动形成摘要设置截断长度"></a>自动形成摘要设置截断长度</h2><p>在主题配置文件中添加如下配置,默认截取的长度为150 字符，可以根据需要自行设定.<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">auto_excerpt:</span></span><br><span class="line"><span class="attr">  enable:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">  length:</span> <span class="number">150</span></span><br></pre></td></tr></table></figure></p>
+<p><strong> 建议使用(第一种方式)，可以精确控制需要显示的摘录内容， 这种方式也可以让Hexo中的插件更好的识别。</strong></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 阅读全文 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Blog to list]]></title>
+      <url>/2017/12/09/Blog-to-list/</url>
+      <content type="html"><![CDATA[<p>JiaThis分享<br><del>个性域名</del><br>评论系统<br><del>设置阅读全文</del><br>网站如何被各大搜索引擎收录</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> to list </tag>
+            
+            <tag> 分享 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[win7清理Thumbs.db文件]]></title>
+      <url>/2017/12/09/win7%E6%B8%85%E7%90%86Thumbs-db%E6%96%87%E4%BB%B6/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>平常使用svn或者git时管理个人资料的时候经常会发现存在Thumbs.db文件，这些文件如何产生及如何清理呢？</p>
+<h1 id="是什么？"><a href="#是什么？" class="headerlink" title="是什么？"></a>是什么？</h1><p>操作系统的缩略图文件（数据库文件），且还会随着这个文件夹的图片增多而加大Thumbs.db文件的体积。<br>它长这个样子<br><img src="/2017/12/09/win7清理Thumbs-db文件/01.png" alt=""></p>
+<h1 id="如何清理"><a href="#如何清理" class="headerlink" title="如何清理"></a>如何清理</h1><p>新建bat脚本，添加如下命令，如果盘符有区别修改盘符即可。<br><figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">FOR</span> <span class="variable">%%a</span> <span class="keyword">IN</span> ( D: ) <span class="keyword">DO</span> <span class="built_in">DEL</span> /f/s/q/a <span class="variable">%%a</span>\Thumbs.db</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> Thumbs.db </tag>
+            
+            <tag> git </tag>
+            
+            <tag> svn </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[SVN常见问题解决]]></title>
+      <url>/2017/12/08/SVN%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 常见问题 </tag>
+            
+            <tag> SVN </tag>
+            
+            <tag> 版本控制 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Git常见问题解决]]></title>
+      <url>/2017/12/08/Git%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</url>
+      <content type="html"><![CDATA[<h4 id="报错1：-git-warning-LF-will-be-replaced-by-CRLF-fatal-CRLF-would-be-replaced-by-LF"><a href="#报错1：-git-warning-LF-will-be-replaced-by-CRLF-fatal-CRLF-would-be-replaced-by-LF" class="headerlink" title="报错1：[git] warning: LF will be replaced by CRLF | fatal: CRLF would be replaced by LF"></a>报错1：[git] warning: LF will be replaced by CRLF | fatal: CRLF would be replaced by LF</h4><p>原因：<br>遇到这两个问题是因为Git的换行符检查功能core.safecrlf.<br>这个功能有如下选项：</p>
+<ul>
+<li>false - 不做任何检查</li>
+<li>warn - 在提交时检查并警告</li>
+<li>true - 在提交时检查，如果发现混用则拒绝提交<br>建议使用最严格的true选项<br>假如你正在Windows上写程序，又或者你正在和其他人合作，他们在Windows上编程，而你却在其他系统上，在这些情况下，你可能会遇到行尾结束符问题。这是因为Windows使用回车和换行两个字符来结束一行，而Mac和Linux只使用换行一个字符。虽然这是小问题，但它会极大地扰乱跨平台协作。</li>
+</ul>
+<p>解决：<br>Git可以在你提交时自动地把行结束符CRLF转换成LF，而在签出代码时把LF转换成CRLF。用core.autocrlf来打开此项功能，如果是在Windows系统上，把它设置成true，这样当签出代码时，LF会被转换成CRLF：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global core.autocrlf <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<p>Linux或Mac系统使用LF作为行结束符，因此你不想 Git 在签出文件时进行自动的转换；当一个以CRLF为行结束符的文件不小心被引入时你肯定想进行修正，把core.autocrlf设置成input来告诉 Git 在提交时把CRLF转换成LF，签出时不转换：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global core.autocrlf input</span><br></pre></td></tr></table></figure></p>
+<p>这样会在Windows系统上的签出文件中保留CRLF，会在Mac和Linux系统上，包括仓库中保留LF。</p>
+<p>如果你是Windows程序员，且正在开发仅运行在Windows上的项目，可以设置false取消此功能，把回车符记录在库中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global core.autocrlf false</span><br></pre></td></tr></table></figure></p>
+<h4 id="问题2-windows-git-bash操作记住密码"><a href="#问题2-windows-git-bash操作记住密码" class="headerlink" title="问题2: windows git bash操作记住密码"></a>问题2: windows git bash操作记住密码</h4><p><a href="http://blog.csdn.net/u013399093/article/details/47278169" target="_blank" rel="noopener">解决方案</a></p>
+<h4 id="问题3：git提交时忽略特定的的文件或某类文件"><a href="#问题3：git提交时忽略特定的的文件或某类文件" class="headerlink" title="问题3：git提交时忽略特定的的文件或某类文件"></a>问题3：git提交时忽略特定的的文件或某类文件</h4><p>解决方案：添加配置文件.gitignore</p>
+<h4 id="问题4：git-clone-时显示Filename-too-long"><a href="#问题4：git-clone-时显示Filename-too-long" class="headerlink" title="问题4：git clone 时显示Filename too long"></a>问题4：git clone 时显示Filename too long</h4><p>解决：<br>在git bash中，运行下列命令就可以解决该问题。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global core.longpaths true</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Git </tag>
+            
+            <tag> 常见问题 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Markdowm入门]]></title>
+      <url>/2017/12/08/Markdowm%E5%85%A5%E9%97%A8/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Markdown 是一种轻量级的标记语言，其用简单的标记语法便可达到排版的目的，其可以使我们更加专注于内容的编写，而不需过多关注排版。本文主要整理了 Markdown 中的常用的标记语法，以便自己与他人以后查用。</p>
+<h1 id="Markdown编辑器"><a href="#Markdown编辑器" class="headerlink" title="Markdown编辑器"></a>Markdown编辑器</h1><p>推荐：Atom<br>使用Markdown格式的场景: Hexo博客，简书<br><a href="http://www.williamlong.info/archives/4319.html" target="_blank" rel="noopener">其他Markdown编辑器产品</a></p>
+<h1 id="Atom介绍"><a href="#Atom介绍" class="headerlink" title="Atom介绍"></a>Atom介绍</h1><p>Atom 是 Github 官方开发的一款可定制化的、跨平台的文本编辑器。有两点需要注意一下，一是 Atom 是由 Github 官方开发，二是其定制化程度非常高。前者的结果是编辑器对 Github 非常友好，如果项目托管在 Github 上的话，用 Atom 可以很方便地进行 Git 操作。后者的结果就是我们可以根据自己的需要定制自己的编辑器，使得自己的效率最大化，也让自己舒舒服服、开开心心地码代码。<br>Atom预览Markdown快捷键：Ctrl+Shift+M<br>Atom相关资料</p>
+<ul>
+<li><a href="https://github.com/CompileYouth/front-end-study/blob/master/tool/atom/%E7%A3%A8%E5%88%80%E4%B8%8D%E8%AF%AF%E7%A0%8D%E6%9F%B4%E5%B7%A5%EF%BC%9AAtom%20%E4%BB%8B%E7%BB%8D.md" target="_blank" rel="noopener">Atom介绍</a></li>
+<li><a href="https://atom-china.org/t/atom/62" target="_blank" rel="noopener">Atom基础使用</a></li>
+<li><a href="https://npm.taobao.org/mirrors/atom" target="_blank" rel="noopener">Atom镜像站</a></li>
+<li><a href="https://atom-china.org/t/faq/326" target="_blank" rel="noopener">Atom官方博客/手册索引、插件推荐专题</a></li>
+</ul>
+<h1 id="Markdown语法介绍"><a href="#Markdown语法介绍" class="headerlink" title="Markdown语法介绍"></a>Markdown语法介绍</h1><p><a href="http://www.jianshu.com/p/q81RER#" target="_blank" rel="noopener">献给写作者的 Markdown 新手指南</a><br><a href="http://wowubuntu.com/markdown/" target="_blank" rel="noopener">Markdown 语法说明 (简体中文版)</a></p>
+<h2 id="段落元素"><a href="#段落元素" class="headerlink" title="段落元素"></a>段落元素</h2><h3 id="1、段落与换行"><a href="#1、段落与换行" class="headerlink" title="1、段落与换行"></a>1、段落与换行</h3><p>Markdown中段落指连续的一段文字，编写时段落之间至少一个<strong>空行</strong>隔开，段落内多个空格被视为一个空格，段首不支持缩进。<br>如何想要在显示时显示多个空行，可以插入<br>实现，注意的是，插入的<br>应与前后的段落中间至少空一行。</p>
+<h3 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h3><p>Markdown支持两种类型的标题<br>// 方法1：只能表示两个级别<br>一级标题<br>\ ========<br>二级标题<br>\ ——–</p>
+<p>// 方法2：推荐<br># 一级标题<br>## 二级标题<br>### 三级标题<br>.…..<br>###### 六级标题</p>
+<h2 id="删除线语法"><a href="#删除线语法" class="headerlink" title="删除线语法"></a>删除线语法</h2><p>支持两种方法:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">~~我是被删除的~~</span><br><span class="line">&lt;del&gt; 我是被删除的 &lt;/del&gt;</span><br></pre></td></tr></table></figure></p>
+<p>效果如下<br><del>我是被删除的</del></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> 标记语言 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Atom编辑器入门]]></title>
+      <url>/2017/12/08/Atom%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Atom </tag>
+            
+            <tag> 编辑器 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo NexT主题添加联系邮箱及图标]]></title>
+      <url>/2017/12/08/Hexo-NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%81%94%E7%B3%BB%E9%82%AE%E7%AE%B1%E5%8F%8A%E5%9B%BE%E6%A0%87/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Hexo Next如何添加联系人邮箱并设置个性图标。</p>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="配置主题目录下的-config-yaml文件修改以下配置即可。"><a href="#配置主题目录下的-config-yaml文件修改以下配置即可。" class="headerlink" title="配置主题目录下的_config.yaml文件修改以下配置即可。"></a>配置主题目录下的_config.yaml文件修改以下配置即可。</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Social links</span><br><span class="line">social:</span><br><span class="line">  email: mailto:your email address</span><br><span class="line"></span><br><span class="line">social_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  email: envelope</span><br></pre></td></tr></table></figure>
+<p>注释：seoial_icons节点中后面的值是<a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 中提供的图标的名称。之后其他链接如推特，微博等都可自行增减。</p>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Next </tag>
+            
+            <tag> 联系邮箱 </tag>
+            
+            <tag> 图标 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo NexT主题添加打赏功能]]></title>
+      <url>/2017/12/08/Hexo-NexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%89%93%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>越来越多的平台支持打赏功能，付费阅读时代越来越近，GitHub用户habren开发了打赏功能，支持微信和支付宝，被Next主题集成到了主题中。</p>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>配置主题目录下的_config.yaml文件，将对应的image文件替换为自己的收款二维码即可。<br># 打赏功能<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">reward_comment:</span> <span class="string">坚持原创技术分享，您的支持将鼓励我继续创作！</span></span><br><span class="line"><span class="attr">wechatpay:</span> <span class="string">/images/wechatpay.jpg</span></span><br><span class="line"><span class="attr">alipay:</span> <span class="string">/images/alipay.jpg</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p>
+<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p><img src="/2017/12/08/Hexo-NexT主题添加打赏功能/01.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Next </tag>
+            
+            <tag> 打赏 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo博客加密功能]]></title>
+      <url>/2017/12/08/Hexo%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86%E5%8A%9F%E8%83%BD/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如何给博客内容添加访问限制，保证信息安全？</p>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>Github地址:<a href="https://github.com/MikeCoder/hexo-blog-encrypt" target="_blank" rel="noopener">https://github.com/MikeCoder/hexo-blog-encrypt</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd hexo</span><br><span class="line">npm install hexo-blog-encrypt --save</span><br></pre></td></tr></table></figure></p>
+<h2 id="配置插件"><a href="#配置插件" class="headerlink" title="配置插件"></a>配置插件</h2><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt" target="_blank" rel="noopener">参考插件官网说明</a></p>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p>
+<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p><img src="/2017/12/08/Hexo博客加密功能/01.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> encrypt </tag>
+            
+            <tag> 加密 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo添加搜索功能]]></title>
+      <url>/2017/12/08/Hexo%E6%B7%BB%E5%8A%A0%E6%90%9C%E7%B4%A2%E5%8A%9F%E8%83%BD/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如何设置站内搜索功能，使用户可以搜索站内资源？</p>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> hexo</span><br><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p>
+<h2 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h2><p><img src="/2017/12/08/Hexo添加搜索功能/01.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> search </tag>
+            
+            <tag> 搜索 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo添加RSS]]></title>
+      <url>/2017/12/08/Hexo%E6%B7%BB%E5%8A%A0RSS/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如何设置RSS源，别人可以订阅你的博客更新？</p>
+<h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> hexo</span><br><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> rss </tag>
+            
+            <tag> Rss </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[个人简历]]></title>
+      <url>/2017/12/08/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</url>
+      <content type="html"><![CDATA[<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=29750751&auto=1&height=66"></iframe><br>//其中的width=298 height=52 均改为0就看不到了，依然可以播放音乐</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo Next添加留言板页面]]></title>
+      <url>/2017/12/08/Hexo-Next%E6%B7%BB%E5%8A%A0%E7%95%99%E8%A8%80%E6%9D%BF%E9%A1%B5%E9%9D%A2/</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo博客添加sitemap]]></title>
+      <url>/2017/12/08/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0sitemap/</url>
+      <content type="html"><![CDATA[<p>在这个搜索引擎至上的年代，更好的被搜索引擎收录是必不可少的一步。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如何提高个人博客被搜索到的几率？如何让百度+谷歌搜索到我的博客？<br>了解网站SEO方案</p>
+<h1 id="确认博客是否被收录"><a href="#确认博客是否被收录" class="headerlink" title="确认博客是否被收录"></a>确认博客是否被收录</h1><p>在百度或者谷歌上面输入下面格式来判断，如果能搜索到就说明被收录，否则就没有，用你的域名替代我的mds1455975151.github.io<br>site:mds1455975151.github.io</p>
+<h1 id="生成sitemap文件"><a href="#生成sitemap文件" class="headerlink" title="生成sitemap文件"></a>生成sitemap文件</h1><h2 id="安装相关插件"><a href="#安装相关插件" class="headerlink" title="安装相关插件"></a>安装相关插件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd hexo</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br><span class="line">npm install hexo-generator-seo-friendly-sitemap --save</span><br></pre></td></tr></table></figure>
+<p>注：根据个人喜欢选择合适插件即可</p>
+<h2 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h2><p>修改主题配置文件_config.yml,添加如下两行配置<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">......</span></span><br><span class="line"><span class="attr">  sitemap:</span> <span class="string">/sitemap.xml</span>             <span class="comment"># 站点地图</span></span><br><span class="line"><span class="attr">  baidusitemap:</span> <span class="string">/baidusitemap.xml</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="查看修改效果"><a href="#查看修改效果" class="headerlink" title="查看修改效果"></a>查看修改效果</h2><p>hexo s<br>在本地访问 <a href="http://127.0.0.1:4000/sitemap.xml" target="_blank" rel="noopener">http://127.0.0.1:4000/sitemap.xml</a> 和 <a href="http://127.0.0.1:4000/baidusitemap.xml" target="_blank" rel="noopener">http://127.0.0.1:4000/baidusitemap.xml</a> 查看效果</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> sitemap </tag>
+            
+            <tag> SEO </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Jenkinns最佳实践:游戏开服]]></title>
+      <url>/2017/12/07/Jenkinns%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E6%B8%B8%E6%88%8F%E5%BC%80%E6%9C%8D/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>应用场景描述：运营提供开服邮件，运维利用开服信息大批量设置开服操作(添加游戏服务器列表显示给用户)</p>
+<h1 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h1><h2 id="需求案例："><a href="#需求案例：" class="headerlink" title="需求案例："></a>需求案例：</h2><p>运营需求邮件<br><img src="/2017/12/07/Jenkinns最佳实践-游戏开服/images/jenkins/01_opengame.png" alt=""></p>
+<p>实现效果：<br>&emsp;&emsp;将运营邮件部分直接粘贴到Jenkins中进行解析，获取各项信息，然后拼接开服所需信息。</p>
+<h2 id="实现过程"><a href="#实现过程" class="headerlink" title="实现过程"></a>实现过程</h2><p>新建自由格式的新jobs–设置参数构建–新建参数开服信息–编写解析脚本<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># !/usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding: UTF-8 -*-</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">f = open(<span class="string">'host_info'</span>, <span class="string">'w'</span>)</span><br><span class="line">game_info = os.getenv(<span class="string">"game_info"</span>).split(<span class="string">'\n'</span>)</span><br><span class="line"><span class="keyword">for</span> data <span class="keyword">in</span> game_info:</span><br><span class="line">    line = data.split(<span class="string">'\t'</span>)</span><br><span class="line">    date = line[<span class="number">0</span>]</span><br><span class="line">    time = line[<span class="number">1</span>]</span><br><span class="line">    name = line[<span class="number">2</span>]</span><br><span class="line">    sid = line[<span class="number">3</span>]</span><br><span class="line">    wanip = line[<span class="number">4</span>]</span><br><span class="line">    lanip = line[<span class="number">5</span>]</span><br><span class="line">    domain = line[<span class="number">6</span>]</span><br><span class="line">    channel = line[<span class="number">7</span>]</span><br><span class="line">    info_str = <span class="string">"%s %s %s %s %s %s %s %s"</span> % (date, time, name, sid, wanip, lanip, domain, channel)</span><br><span class="line">    <span class="keyword">print</span> info_str</span><br><span class="line">    f.write(<span class="string">'info_str'</span>)</span><br><span class="line">f.close()</span><br></pre></td></tr></table></figure></p>
+<p>后期可以通过写Python脚本读取host_info文本信息，拼接xml信息添加的服务器列表的xml文件中.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> jenkins </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> jenkins </tag>
+            
+            <tag> 游戏 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[技术变现思路(挣点零花钱)]]></title>
+      <url>/2017/12/07/%E6%8A%80%E6%9C%AF%E5%8F%98%E7%8E%B0%E6%80%9D%E8%B7%AF-%E6%8C%A3%E7%82%B9%E9%9B%B6%E8%8A%B1%E9%92%B1/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;IT同学如何利用自己的IT技能实现技能变现。</p>
+<h1 id="实践方法总结"><a href="#实践方法总结" class="headerlink" title="实践方法总结"></a>实践方法总结</h1><ul>
+<li>个人站长</li>
+<li>游戏私服</li>
+<li>电脑类(维修、装机等)</li>
+<li>Google Adsense</li>
+<li>百度联盟</li>
+<li>自行购买服务器部署VPN，提供给有需求的用户</li>
+<li>http/https/socks代理</li>
+<li>免流</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 思维 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> 思维 </tag>
+            
+            <tag> 理财 </tag>
+            
+            <tag> 变现 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[使用GitHub+Hexo+Next搭建静态博客]]></title>
+      <url>/2017/12/06/%E4%BD%BF%E7%94%A8GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>&emsp;&emsp;GitHub为广大开发者提供了一个非常好的平台，不仅是代码的开源，同时GitHub还提供了开发者可以在GitHub上建立自己的站点（GithubPage）的一个非常有意思的功能。它功能有限只能创建静态的网站。<br>&emsp;&emsp;本文整理自己的部署过程，意在帮助那些刚刚接触GitHub的新手同学，可以利用GitHub快速创建高逼格的个人博客站点。</p>
+<a id="more"></a>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
+<li>GitHub账号，创建一个仓库，规则为：例如我的账号为mds1455975151，则新建仓库名称为mds1455975151.github.io</li>
+<li>NodeJS环境及相关基本知识，我的环境如下：<ul>
+<li>os: Windows_NT 6.1.7601 win32 x64</li>
+<li>node: 8.9.2</li>
+</ul>
+</li>
+<li>Git基本使用及git for windows安装使用。<ul>
+<li>git version: 2.15.0.windows.1</li>
+</ul>
+</li>
+</ul>
+<h1 id="关于Hexo"><a href="#关于Hexo" class="headerlink" title="关于Hexo"></a>关于Hexo</h1><h2 id="Hexo基本介绍"><a href="#Hexo基本介绍" class="headerlink" title="Hexo基本介绍"></a>Hexo基本介绍</h2><p>&emsp;&emsp;官网:<a href="https://hexo.io/" target="_blank" rel="noopener">https://hexo.io/</a><br>&emsp;&emsp;GitHub:<a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">https://github.com/hexojs/hexo</a><br>    A fast, simple &amp; powerful blog framework(快速、简单而高效的静态博客框架)</p>
+<pre><code>- Blazing Fast(超快速度)
+    Node.js brings you incredible generating speed. Hundreds of files take only seconds to build.
+- Markdown Support(支持Markdown)
+    All features of GitHub Flavored Markdown are supported. You can even use most Octopress plugins in Hexo.
+- One-Command Deployment(一键部署)
+    You only need one command to deploy your site to GitHub Pages, Heroku or other sites.
+- Various Plugins(丰富的插件)
+    Hexo has a powerful plugin system. You can install more plugins for Jade, CoffeeScript plugins.
+</code></pre><h2 id="Hexo工作原理"><a href="#Hexo工作原理" class="headerlink" title="Hexo工作原理"></a>Hexo工作原理</h2><p>&emsp;&emsp;由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。</p>
+<h1 id="关于NexT"><a href="#关于NexT" class="headerlink" title="关于NexT"></a>关于NexT</h1><p>&emsp;&emsp;即Hexo的主题插件<br>&emsp;&emsp;官网:<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">http://theme-next.iissnan.com/</a><br>&emsp;&emsp;Github:<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a></p>
+<h1 id="部署实践"><a href="#部署实践" class="headerlink" title="部署实践"></a>部署实践</h1><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>Hexo安装和部署依赖Nodejs和Git，自行安装即可，很简单。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure></p>
+<h2 id="初始化框架"><a href="#初始化框架" class="headerlink" title="初始化框架"></a>初始化框架</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">.</span><br><span class="line">├── _config.yml     // 网站的配置信息，您可以在此配置大部分的参数。</span><br><span class="line">├── package.json    // 应用程序的信息</span><br><span class="line">├── scaffolds       // 模版文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</span><br><span class="line">├── source          // 资源文件夹是存放用户资源的地方。</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes          // 主题 文件夹 Hexo会根据主题来生成静态页面。</span><br><span class="line">cd blog</span><br><span class="line">hexo g</span><br><span class="line">hexo s              // 开启本地预览服务，打开浏览器访问http://localhost:4000即可看到内容&lt;/span&gt;&lt;/pre&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="主配置讲解"><a href="#主配置讲解" class="headerlink" title="主配置讲解"></a>主配置讲解</h2><h3 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- title	        // 网站标题</span><br><span class="line">- subtitle	    // 网站副标题</span><br><span class="line">- description	  // 网站描述</span><br><span class="line">- author	      // 您的名字</span><br><span class="line">- language	    // 网站使用的语言</span><br><span class="line">- timezone	    // 网站时区。Hexo 预设使用您电脑的时区。时区列表</span><br></pre></td></tr></table></figure>
+<h3 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- url	               // 网址</span><br><span class="line">- root	             // 网站根目录</span><br><span class="line">- permalink	         // 文章的 永久链接 格式	:year/:month/:day/:title/</span><br><span class="line">- permalink_default	 // 永久链接中各部分的默认值</span><br></pre></td></tr></table></figure>
+<p><strong>网站存放在子目录</strong><br>如果您的网站存放在子目录中，例如 <a href="http://yoursite.com/blog，则请将您的" target="_blank" rel="noopener">http://yoursite.com/blog，则请将您的</a> url 设为 <a href="http://yoursite.com/blog" target="_blank" rel="noopener">http://yoursite.com/blog</a> 并把 root 设为 /blog/。</p>
+<h3 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">- source_dir	   // 资源文件夹，这个文件夹用来存放内容。	source</span><br><span class="line">- public_dir	   // 公共文件夹，这个文件夹用于存放生成的站点文件。	public</span><br><span class="line">- tag_dir	       // 标签文件夹	tags</span><br><span class="line">- archive_dir	   // 归档文件夹	archives</span><br><span class="line">- category_dir	 // 分类文件夹	categories</span><br><span class="line">- code_dir	     // Include code 文件夹	downloads/code</span><br><span class="line">- i18n_dir	     // 国际化（i18n）文件夹	:lang</span><br><span class="line">- skip_render	   // 跳过指定文件的渲染，您可使用 glob 来配置路径。</span><br></pre></td></tr></table></figure>
+<h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">- new_post_name	    // 新文章的文件名称	:title.md</span><br><span class="line">- default_layout	  // 预设布局	post</span><br><span class="line">- auto_spacing	    // 在中文和英文之间加入空格	false</span><br><span class="line">- titlecase	        // 把标题转换为 title case	false</span><br><span class="line">- external_link	    // 在新标签中打开链接	true</span><br><span class="line">- filename_case	    // 把文件名称转换为 (1) 小写或 (2) 大写	0</span><br><span class="line">- render_drafts	    // 显示草稿	false</span><br><span class="line">- post_asset_folder	// 启动 Asset 文件夹	false</span><br><span class="line">- relative_link	    // 把链接改为与根目录的相对位址	false</span><br><span class="line">- future	          // 显示未来的文章	true</span><br><span class="line">- highlight	        // 代码块的设置</span><br></pre></td></tr></table></figure>
+<h3 id="分类-amp-标签"><a href="#分类-amp-标签" class="headerlink" title="分类 &amp; 标签"></a>分类 &amp; 标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- default_category	// 默认分类	uncategorized</span><br><span class="line">- category_map	    // 分类别名</span><br><span class="line">- tag_map	          // 标签别名</span><br></pre></td></tr></table></figure>
+<h3 id="日期-时间格式"><a href="#日期-时间格式" class="headerlink" title="日期 / 时间格式"></a>日期 / 时间格式</h3><p>Hexo 使用 Moment.js 来解析和显示时间.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- date_format // 日期格式	MMM D YYYY</span><br><span class="line">- time_format	// 时间格式	H:mm:ss</span><br></pre></td></tr></table></figure></p>
+<h3 id="分页"><a href="#分页" class="headerlink" title="分页"></a>分页</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- per_page	       // 每页显示的文章量 (0 = 关闭分页功能)	10</span><br><span class="line">- pagination_dir	 // 分页目录	page</span><br></pre></td></tr></table></figure>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- theme	  // 当前主题名称</span><br><span class="line">- deploy	// 部署</span><br></pre></td></tr></table></figure>
+<h2 id="Hexo使用"><a href="#Hexo使用" class="headerlink" title="Hexo使用"></a>Hexo使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span>       // 新建文章</span><br><span class="line">hexo new page <span class="string">"pageName"</span>  // 新建页面</span><br><span class="line">hexo generate             //生成静态页面至public目录</span><br><span class="line">hexo server               //开启预览访问端口（默认端口4000，<span class="string">'ctrl + c'</span>关闭server）</span><br><span class="line">hexo deploy               //将.deploy目录部署到GitHub</span><br><span class="line">hexo <span class="built_in">help</span>                 //查看帮助</span><br><span class="line">hexo version              //查看Hexo的版本&lt;/span&gt;&lt;/pre&gt;</span><br><span class="line">hexo s -p 5000            //更改端口</span><br><span class="line">hexo s -i 192.168.1.1     //自定义 IP</span><br><span class="line">hexo g --watch            //监视文件变动</span><br></pre></td></tr></table></figure>
+<h2 id="安装NexT主题"><a href="#安装NexT主题" class="headerlink" title="安装NexT主题"></a>安装NexT主题</h2><p>拷贝主题代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd hexo</span><br><span class="line">git clone --branch v5.1.2 https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p>
+<p>启用主题<br>在博客根目录下找到_config.yml文件，修改主题设置，修改完成hexo s查看主题效果<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="部署网站"><a href="#部署网站" class="headerlink" title="部署网站"></a>部署网站</h2><p>修改主配置文件_config.yml.<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">  repo:</span> <span class="string">git@github.com:YourRepository.git</span></span><br><span class="line"><span class="attr">  branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure></p>
+<p>修改完成，在git bash中使用如下命令进行发布：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://pages.github.com/" target="_blank" rel="noopener">官网GitHub Pages资料</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 技术 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> GitHub </tag>
+            
+            <tag> NexT </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>/2017/12/06/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      
+        
+    </entry>
+    
+  
+  
+</search>
