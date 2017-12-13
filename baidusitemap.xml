@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>https://mds1455975151.github.io/2017/12/13/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E4%BA%AB%E5%8A%9F%E8%83%BD/</loc>
+    <lastmod>2017-12-13T10:47:55.663Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo添加分享功能</title>
+        <pubTime>2017-12-13T10:39:02.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>分享功能</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="https://mds1455975151.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://mds1455975151.github.io/2017/12/08/Hexo-Next%E6%B7%BB%E5%8A%A0Disqus%E8%AF%84%E8%AE%BA/</loc>
-    <lastmod>2017-12-13T10:12:55.828Z</lastmod>
+    <lastmod>2017-12-13T10:39:25.088Z</lastmod>
     <data>
         <display>
         <title>Hexo Next添加Disqus评论</title>
