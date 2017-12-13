@@ -56,13 +56,6 @@
     </url>
 
     <url>
-        <loc>https://mds1455975151.github.io/categories/Hexo/</loc>
-        <lastmod>2017-12-12T10:42:52.432Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://mds1455975151.github.io/categories/Github/</loc>
         <lastmod>2017-12-13T03:04:57.478Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,6 +65,13 @@
     <url>
         <loc>https://mds1455975151.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
         <lastmod>2017-12-13T04:17:15.523Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://mds1455975151.github.io/categories/Hexo/</loc>
+        <lastmod>2017-12-13T10:06:59.093Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

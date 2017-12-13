@@ -437,7 +437,14 @@
 
     <url>
         <loc>https://mds1455975151.github.io/tags/Hexo/</loc>
-        <lastmod>2017-12-13T04:17:15.523Z</lastmod>
+        <lastmod>2017-12-13T10:06:59.093Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://mds1455975151.github.io/tags/Disqus/</loc>
+        <lastmod>2017-12-13T10:06:59.093Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

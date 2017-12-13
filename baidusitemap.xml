@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://mds1455975151.github.io/2017/12/08/Hexo-Next%E6%B7%BB%E5%8A%A0%E7%95%99%E8%A8%80%E6%9D%BF%E9%A1%B5%E9%9D%A2/</loc>
+    <lastmod>2017-12-13T10:06:59.093Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo Next添加Disqus评论</title>
+        <pubTime>2017-12-08T01:32:25.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Disqus</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="https://mds1455975151.github.io/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://mds1455975151.github.io/2017/12/09/Blog-to-list/</loc>
     <lastmod>2017-12-13T04:17:15.523Z</lastmod>
     <data>
@@ -500,24 +522,6 @@
          
         <tag>图标</tag>
          
-         
-           
-             
-              <breadCrumb title="Hexo" url="https://mds1455975151.github.io/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://mds1455975151.github.io/2017/12/08/Hexo-Next%E6%B7%BB%E5%8A%A0%E7%95%99%E8%A8%80%E6%9D%BF%E9%A1%B5%E9%9D%A2/</loc>
-    <lastmod>2017-12-10T10:31:54.915Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo Next添加留言板页面</title>
-        <pubTime>2017-12-08T01:32:25.000Z</pubTime>
-        
          
            
              
