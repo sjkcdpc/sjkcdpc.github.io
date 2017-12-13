@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mds1455975151.github.io/"/>
-  <updated>2017-12-13T10:47:55.663Z</updated>
+  <updated>2017-12-13T10:51:28.103Z</updated>
   <id>https://mds1455975151.github.io/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="https://mds1455975151.github.io/2017/12/13/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E4%BA%AB%E5%8A%9F%E8%83%BD/"/>
     <id>https://mds1455975151.github.io/2017/12/13/Hexo添加分享功能/</id>
     <published>2017-12-13T10:39:02.000Z</published>
-    <updated>2017-12-13T10:47:55.663Z</updated>
+    <updated>2017-12-13T10:51:28.103Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客在前期需要大量推广，即使你写的文章再好，别人也不一定能看到，或者别人看到了也不会认真阅读，这是正常的。不妨主动自己主动一点，把自己的文章推广一下，也能帮助自己博客提高访问量。微博、微信和QQ空间都是很好的传播平台，需要利用好。多数人还是习惯了用QQ空间。所以就需要一键分享的功能。不少人用的百度的，但个人对JiaThis更感兴趣一点。样式多，支持平台多，重要的是方便。</p><h1 id="设置方法"><a href="#设置方法" class="headerlink" title="设置方法"></a>设置方法</h1><p>1、注册<a href="http://www.jiathis.com/" target="_blank" rel="noopener">jiathis</a><br>2、将注册后id配置到主题的配置文件中<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Support for youyan comments system.</span></span><br><span class="line"><span class="comment"># You can get your uid from http://www.uyan.cc</span></span><br><span class="line"><span class="comment"># 是否开启友言评论，http://www.uyan.cc/index.php</span></span><br><span class="line"><span class="comment"># id 中填写你的友言用户数字ID，注册后进入后台管理即可查看</span></span><br><span class="line"><span class="attr">youyan_uid:</span> <span class="string">xxxxxx</span></span><br></pre></td></tr></table></figure></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><img src="/2017/12/13/Hexo添加分享功能/01.png" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客在前期需要大量推广，即使你写的文章再好，别人也不一定能看到，或者别人看到了也不会认真阅读，这是正常的。不妨主动自己主动一点，把自己的文章推广一下，也能帮助自己博客提高访问量。微博、微信和QQ空间都是很好的传播平台，需要利用好。多数人还是习惯了用QQ空间。所以就需要一键分享的功能。不少人用的百度的，但个人对JiaThis更感兴趣一点。样式多，支持平台多，重要的是方便。</p><a id="more"></a><h1 id="设置方法"><a href="#设置方法" class="headerlink" title="设置方法"></a>设置方法</h1><p>1、注册<a href="http://www.jiathis.com/" target="_blank" rel="noopener">jiathis</a><br>2、将注册后id配置到主题的配置文件中<br><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Support for youyan comments system.</span></span><br><span class="line"><span class="comment"># You can get your uid from http://www.uyan.cc</span></span><br><span class="line"><span class="comment"># 是否开启友言评论，http://www.uyan.cc/index.php</span></span><br><span class="line"><span class="comment"># id 中填写你的友言用户数字ID，注册后进入后台管理即可查看</span></span><br><span class="line"><span class="attr">youyan_uid:</span> <span class="string">xxxxxx</span></span><br></pre></td></tr></table></figure></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>在本地访问 <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">http://127.0.0.1:4000</a></p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><img src="/2017/12/13/Hexo添加分享功能/01.png" alt=""></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;博客在前期需要大量推广，即使你写的文章再好，别人也不一定能看到，或者别人看到了也不会认真阅读，这是正常的。不妨主动自己主动一点，把自己的文章
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;博客在前期需要大量推广，即使你写的文章再好，别人也不一定能看到，或者别人看到了也不会认真阅读，这是正常的。不妨主动自己主动一点，把自己的文章推广一下，也能帮助自己博客提高访问量。微博、微信和QQ空间都是很好的传播平台，需要利用好。多数人还是习惯了用QQ空间。所以就需要一键分享的功能。不少人用的百度的，但个人对JiaThis更感兴趣一点。样式多，支持平台多，重要的是方便。&lt;/p&gt;
     
     </summary>
     
@@ -273,11 +270,11 @@
       <category term="Django" scheme="https://mds1455975151.github.io/categories/Django/"/>
     
     
+      <category term="Python" scheme="https://mds1455975151.github.io/tags/Python/"/>
+    
       <category term="Django" scheme="https://mds1455975151.github.io/tags/Django/"/>
     
       <category term="web框架" scheme="https://mds1455975151.github.io/tags/web%E6%A1%86%E6%9E%B6/"/>
-    
-      <category term="Python" scheme="https://mds1455975151.github.io/tags/Python/"/>
     
   </entry>
   
