@@ -6,7 +6,6 @@ node_modules/
 public/
 .idea/
 .deploy*/
-themes/landscape/
 package-lock.json
 master
 .npmignore
