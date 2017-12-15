@@ -8,6 +8,7 @@
   "dependencies": {
     "forever-monitor": "^1.7.1",
     "hexo": "^3.2.0",
+    "hexo-abbrlink": "^2.0.5",
     "hexo-addlink": "^1.0.4",
     "hexo-asset-image": "0.0.3",
     "hexo-blog-encrypt": "^2.0.2",

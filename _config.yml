@@ -15,8 +15,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://mds1455975151.github.io
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
 
 # Directory
 source_dir: source
@@ -100,3 +100,9 @@ deploy:
 addlink:
   before_text: __本文作者__：dongsheng<br />__本文地址__：
   after_text: <br />__版权声明__：转载请注明出处！
+
+# permalink: :title/
+permalink: archives/:abbrlink.html
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
