@@ -31,6 +31,7 @@ skip_render:
   - 'baidu_verify_WSxw3LioI3.html'
   - 'googleec6843bf1010ba92.html'
   - 'BingSiteAuth.xml'
+  - '1.html'
   - '*.txt'
 
 
@@ -106,3 +107,23 @@ permalink: archives/:abbrlink.html
 abbrlink:
   alg: crc32  # 算法：crc16(default) and crc32
   rep: hex    # 进制：dec(default) and hex
+
+# 网页资源压缩优化 提升加载性能 hexo-neat
+neat_enable: true
+
+neat_html:
+  enable: true
+  exclude:
+
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'

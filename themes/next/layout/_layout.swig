@@ -36,8 +36,10 @@
           {% include '_partials/duoshuo-hot-articles.swig' %}
           {% include '_partials/share/jiathis.swig' %}
           {% include '_partials/share/duoshuo_share.swig' %}
+          {# {% include '_scripts/_get_money/20171215.swig' %} #}
           {% include '_partials/comments.swig' %}
           {% include '_scripts/third-party/analytics/cnzz-analytics.swig' %}
+
         </div>
         {% if theme.sidebar.display !== 'remove' %}
           {% block sidebar %}{% endblock %}

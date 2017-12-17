@@ -1,0 +1,64 @@
+<!--
+
+Code highlighting produced by Actipro CodeHighlighter (freeware)
+http://www.CodeHighlighter.com/
+
+--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>最新javascript自动按比例显示图片，按比例压缩图片显示</title>
+<script type="text/javascript">
+function AutoResizeImage(maxWidth,maxHeight,objImg){
+var img = new Image();
+img.src = objImg.src;
+var hRatio;
+var wRatio;
+var Ratio = 1;
+var w = img.width;
+var h = img.height;
+wRatio = maxWidth / w;
+hRatio = maxHeight / h;
+if (maxWidth ==0 && maxHeight==0){
+Ratio = 1;
+}else if (maxWidth==0){//
+if (hRatio<1) Ratio = hRatio;
+}else if (maxHeight==0){
+if (wRatio<1) Ratio = wRatio;
+}else if (wRatio<1 || hRatio<1){
+Ratio = (wRatio<=hRatio?wRatio:hRatio);
+}
+if (Ratio<1){
+w = w * Ratio;
+h = h * Ratio;
+}
+objImg.height = h;
+objImg.width = w;
+}
+</script>
+</head>
+<body>
+<br />
+原图显示（534 X 800）<br />
+onload="AutoResizeImage(0,0,this)<br />
+<a href="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(0,0,this)" alt="534 X 800"/></a><br/><br />
+1.按宽度250压缩,不限制高度 按比例压缩<br />
+onload="AutoResizeImage(250,0,this)"<br />
+<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(250,0,this)"  alt="250 X 374"/></a><br /><br />
+2.按高度250压缩,不限制宽度 按比例压缩<br />
+onload="AutoResizeImage(0,250,this)"<br />
+<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(0,250,this)"  alt="166 X 250"/></a><br /><br />
+3.按高度250宽度250 按比例压缩<br />
+onload="AutoResizeImage(250,250,this)"<br />
+<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(250,250,this)"  alt="200 X 300"/></a><br /><br />
+4.高宽不等比例压缩 （400 X 512）,此时高度不变，会自动按高度的比例压缩。<br />
+onload="AutoResizeImage(400,512,this)"<br />
+<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(400,512,this)"  alt="341 X 512"/></a><br /><br />
+5.高宽不等比例压缩 （300 X 600）,此时宽度不变，会自动按宽度的比例压缩。<br />
+onload="AutoResizeImage(300,600,this)"<br />
+<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/421506/o_09925c7bcead8c60f683298dacf497a6.jpg" border="0" width="0" height="0" onload="AutoResizeImage(300,600,this)"  alt="300 X 449"/></a><br /><br />
+6.如果图片本来的高度和宽度小于压缩的最大高度和宽度，则不会拉大显示图片（按原图显示）<br />
+原图444 x 207,压缩为 500 x 600,将保持原图显示<br />
+onload="AutoResizeImage(500,600,this)"<br />惠山区人才网<a href="http://blog.csdn.net/feng_sundy/archive/2008/06/19/2566028.aspx" target="_blank"><img src="http://p.blog.csdn.net/images/p_blog_csdn_net/feng_sundy/242776/o_20070410_b7409cd284a0f799a357uePcEFa6ty0X.jpg" border="0" width="0" height="0" onload="AutoResizeImage(500,600,this)"  alt="444 X 207"/></a><br /><br />
+</body>
+</html>

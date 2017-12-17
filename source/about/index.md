@@ -2,7 +2,27 @@
 title: 关于我
 date: 2017-12-06 14:42:45
 ---
-13年毕业，从事运维自动化等相关工作
+# 个人信息
+杩栋胜 男 91年 单身汪
+个人邮箱：mdscdpc@gmail.com
+毕业时间：2013.07
+学历：大专(本科继续教育进行中)
+GitHub：https://github.com/mds1455975151
+
+# 职业经历
+2016.08-至今 开心就好
+
+# 技能清单
+- 前端
+  HTML/CSS/bootstrap
+- 后端
+  bash/awk/sed/Python/Golang/PHP/Nodejs
+- 数据库
+  MySQL/Redis
+- 代码管理工具
+  SVN/Git
+- 持续集成
+  GitLab/Jenkins/Ansible/SaltStack
 
 # 分享以下几点内容：
 ### 技术学习
@@ -24,4 +44,8 @@ date: 2017-12-06 14:42:45
     - 突破思维定式
     - 沟通交流，互通有无
 
-
+业余拓展项目：
+- [本技术博客](https://www.mdslq.cn)
+- [ansible-role-pip](https://github.com/mds1455975151/ansible-role-pip)
+- [宠物类网站计划中...]
+- [鼓捣一个程序+一个微信公众号计划中...]
