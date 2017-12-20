@@ -1,10 +1,12 @@
 ---
-title: {{ title }}
-date: {{ date }}
-keywords:
+title: git
+tags:
+  - null
+abbrlink: 518e617c
+date: 2017-12-19 08:53:02
+categories:
 description:
 ---
-
 
 ======================================================
 希望各位朋友支持一下

@@ -48,6 +48,7 @@ menu:
   works: /works       # 作品:项目
   sitemap: /sitemap.xml     # 站点地图 seo
   baidusitemap: /baidusitemap.xml
+  ask-for-links: /ask-for-links
 #  commonweal: /404.html
 
 
@@ -68,6 +69,7 @@ menu_icons:
   sitemap: sitemap
   commonweal: heartbeat
   works: folder
+  ask-for-links: coffee
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -216,9 +218,7 @@ links:
   刘江的Python及Django博客教程: http://www.liujiangblog.com/
   linux运维: http://www.bokeren.cc/
   Bob`S BLOG: https://www.bobcoder.cc/
-  Hexo Plugins: https://hexo.io/plugins/
-  摄影主题网站: http://kaixinme.s.cn.vc
-
+  兰玉磊的技术博客: http://www.fdevops.com/
 
 # ---------------------------------------------------------------
 # Post Settings

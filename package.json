@@ -20,7 +20,6 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-search": "^2.1.1",
     "hexo-generator-seo-friendly-sitemap": "0.0.21",
-    "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-index-anything": "0.0.5",
     "hexo-neat": "^1.0.4",
