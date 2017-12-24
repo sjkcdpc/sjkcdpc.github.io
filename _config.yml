@@ -95,8 +95,9 @@ encrypt:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/mds1455975151/mds1455975151.github.io.git
-  branch: master
+  repo:
+    github: https://github.com/mds1455975151/mds1455975151.github.io.git
+    coding: git@git.coding.net:yujianyuanxingk/mds1455975151.git
 
 # 版权信息
 addlink:
