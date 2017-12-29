@@ -79,8 +79,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+# scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -396,7 +396,7 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
+  enable: true
   app_id: zkRHIN9YTUmv5PenxYHomhod-gzGzoHsz
   app_key: gGNCtLGo1MP3aLhMysPSI4lJ
 
