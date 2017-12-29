@@ -2,7 +2,7 @@
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `hexo-site/source/` directory.
+# Put your favicon.ico into `hexo-site/source/` directory.canvas_nest
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
@@ -479,7 +479,7 @@ use_motion: true
 fancybox: true
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -544,3 +544,8 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+# 宠物
+live2d:
+  model: wanko
+  bottom: -30

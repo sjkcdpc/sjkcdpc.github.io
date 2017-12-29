@@ -21,6 +21,7 @@
     "hexo-generator-search": "^2.1.1",
     "hexo-generator-seo-friendly-sitemap": "0.0.21",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-helper-live2d": "^2.1.5",
     "hexo-index-anything": "0.0.5",
     "hexo-neat": "^1.0.4",
     "hexo-pdf": "^1.1.1",
@@ -31,6 +32,7 @@
     "hexo-server": "^0.2.0",
     "hexo-tag-aplayer": "^2.0.7",
     "hexo-tag-dplayer": "^0.3.1",
+    "hexo-wordcount": "^3.0.2",
     "qiniu": "^7.1.1"
   }
 }
