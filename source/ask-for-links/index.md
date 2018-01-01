@@ -19,10 +19,11 @@ description:  如何申请DongSheng's Blog本博客的友情链接
 3、单向链接
 4、发现网站存在色情、赌博等各类违法内容
 > **本站友链**
-
+``` text
 博客名称： DongSheng's Blog
 博客简介： 个人技术、职场成长分享
 博客地址： https://www.mdslq.cn
+```
 > **申请格式**
 
 发送贵站名称+网站地址到mdscdpc@gmail.com邮箱

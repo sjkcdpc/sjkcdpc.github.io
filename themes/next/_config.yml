@@ -250,7 +250,7 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
+  wordcount: false        
   min2read: false
 
 # Wechat Subscriber
