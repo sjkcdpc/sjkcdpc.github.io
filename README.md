@@ -9,3 +9,7 @@ n stable
 node -v
 npm -v
 
+npm install hexo-cli g
+/root/node_modules/hexo/bin/hexo init hexo-git
+cd hexo-git/
+npm install
