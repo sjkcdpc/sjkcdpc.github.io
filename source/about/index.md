@@ -2,11 +2,23 @@
 title: 关于我
 date: 2017-12-06 14:42:45
 ---
+<!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 -->
+
+- [个人信息](#个人信息)   
+- [职业经历](#职业经历)   
+- [技能清单](#技能清单)   
+- [分享以下几点内容：](#分享以下几点内容)   
+      - [技术学习](#技术学习)   
+      - [工作分享](#工作分享)   
+      - [团队管理](#团队管理)   
+      - [个人思维突破](#个人思维突破)   
+
+<!-- /MDTOC -->
 # 个人信息
-杩栋胜 男 91年 单身汪
+杩栋胜 男 91年
 个人邮箱：mdscdpc@gmail.com
 毕业时间：2013.07
-学历：大专(本科继续教育进行中)
+学历：大专
 GitHub：https://github.com/mds1455975151
 
 # 职业经历
@@ -47,5 +59,6 @@ GitHub：https://github.com/mds1455975151
 业余拓展项目：
 - [本技术博客](https://www.mdslq.cn)
 - [ansible-role-pip](https://github.com/mds1455975151/ansible-role-pip)
+- [Docker hub](https://hub.docker.com/u/mds1455975151/)
 - [宠物类网站计划中...]
 - [鼓捣一个程序+一个微信公众号计划中...]

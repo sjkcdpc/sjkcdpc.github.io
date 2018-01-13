@@ -98,7 +98,6 @@ deploy:
   type: git
   repo:
     github: git@github.com:mds1455975151/mds1455975151.github.io.git
-    coding: git@git.coding.net:yujianyuanxingk/mds1455975151.git
 
 # 版权信息
 addlink:
