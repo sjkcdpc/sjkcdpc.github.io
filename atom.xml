@@ -88,11 +88,11 @@
     
       <category term="Kubernetes" scheme="https://mds1455975151.github.io/tags/Kubernetes/"/>
     
-      <category term="容器化" scheme="https://mds1455975151.github.io/tags/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
-    
       <category term="Nodejs" scheme="https://mds1455975151.github.io/tags/Nodejs/"/>
     
       <category term="pm2" scheme="https://mds1455975151.github.io/tags/pm2/"/>
+    
+      <category term="容器化" scheme="https://mds1455975151.github.io/tags/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
     
   </entry>
   
@@ -118,9 +118,9 @@
     
       <category term="Kubernetes" scheme="https://mds1455975151.github.io/tags/Kubernetes/"/>
     
-      <category term="uwsgi" scheme="https://mds1455975151.github.io/tags/uwsgi/"/>
-    
       <category term="容器化" scheme="https://mds1455975151.github.io/tags/%E5%AE%B9%E5%99%A8%E5%8C%96/"/>
+    
+      <category term="uwsgi" scheme="https://mds1455975151.github.io/tags/uwsgi/"/>
     
   </entry>
   
